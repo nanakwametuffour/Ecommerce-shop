@@ -52,14 +52,7 @@ let all_products = [
     new_price: 85,
     old_price: 120,
   },
-  {
-    id: 3,
-    name: "mens ultra",
-    category: "clothing",
-    image: p3_img,
-    new_price: 60,
-    old_price: 100,
-  },
+  
  
   {
     id: 5,
@@ -69,38 +62,9 @@ let all_products = [
     new_price: 85,
     old_price: 120,
   },
-  {
-    id: 6,
-    name: "puma",
-    category: "sneakers",
-    image: p6_img,
-    new_price: 85,
-    old_price: 120,
-  },
-  {
-    id: 7,
-    name: " hill",
-    category: "clothing",
-    image: p7_img,
-    new_price: 85,
-    old_price: 120,
-  },
-  {
-    id: 8,
-    name: " shoe",
-    category: "clothing",
-    image: p8_img,
-    new_price: 85,
-    old_price: 120,
-  },
-  {
-    id: 9,
-    name: "nike shoe",
-    category: "sneakers",
-    image: p9_img,
-    new_price: 85,
-    old_price: 120,
-  },
+  
+ 
+  
   {
     id: 10,
     name: " jacket",

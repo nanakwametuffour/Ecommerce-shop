@@ -3,7 +3,7 @@ import Slider from "../components/Slider";
 import Banner from "../components/Banner";
 import CategoryPage from "../components/CategoryPage";
 
-import PopularSale from "../components/PopularSale";
+import ShowCategory from "../components/ShowCategory";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full -mt-[300px]">
         <CategoryPage />
       </div>
-     <PopularSale/>
+       <ShowCategory/>
     </div>
      </>
   );
