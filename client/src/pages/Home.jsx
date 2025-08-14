@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import CategoryPage from "../components/CategoryPage";
 
 import ShowCategory from "../components/ShowCategory";
+import DiscountProductData from "../components/DiscountProductData";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <CategoryPage />
       </div>
        <ShowCategory/>
+         <DiscountProductData/>
     </div>
      </>
   );

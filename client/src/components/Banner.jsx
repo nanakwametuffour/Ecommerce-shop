@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0)
-       console.log(currentSlide);
+       
        
     const sliderData = [
       "https://m.media-amazon.com/images/I/619geyiQI5L._SX3000_.jpg",

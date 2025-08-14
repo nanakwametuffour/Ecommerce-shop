@@ -32,7 +32,7 @@ export default function App() {
             <Route path="/mobile" element={<Mobile />} />
             <Route path="/camera" element={<Clothes />} />
             <Route path="/refrigerator" element={<Refrigerator/>} />
-            <Route path="/clothes" element={<Camera />} />
+            <Route path="/clothes" element={<Clothes />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="product" element={<Product />} />
             <Route path="/product/:id" element={<Product />} />

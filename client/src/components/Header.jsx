@@ -28,16 +28,15 @@ export default function Header() {
   return (
     <header className=" w-full h-auto sticky top-0 z-50">
       <div className="">
-        <div className=" bg-white">
+        <div className=" bg-white relative">
           <div className="flex justify-between w-full max-w-screen mx-auto p-4 px-5">
-            
             <div className="w-[40%] md:w-[50%] flex items-center">
-            <Link to={"/"} className='flex justify-center items-center'>
-              <img src={logo} alt="" className="w-8 h-8 md:w-10 md:h-10" />
-              <span className=" uppercase font-semibold text-green-900">
-                bag
-              </span>
-            </Link>
+              <Link to={"/"} className="flex justify-center items-center">
+                <img src={logo} alt="" className="w-8 h-8 md:w-10 md:h-10" />
+                <span className=" uppercase font-semibold text-green-900">
+                  bag
+                </span>
+              </Link>
             </div>
             <div className="w-full flex justify-center items-center border p-2 rounded-full hover:ring-1 ring-green-900 transition duration-500">
               <input
@@ -47,6 +46,7 @@ export default function Header() {
                 className="w-[100%] focus:outline-none"
                 placeholder="Search product.."
               />
+
               <div className="">
                 {searchForm ? (
                   <span onClick={() => setSearchForm("")}>
@@ -59,11 +59,36 @@ export default function Header() {
                 )}
               </div>
             </div>
+             {searchForm &&
+
+            <div className=" absolute  right-0  left-0 top-[58px] mx-auto h-auto flex justify-center items-center w-full px-10 ">
+              <div className="bg-white w-[60%] md:w-[50%] shadow-xl border-t-2 border-green-900 ml-16 p-5 flex justify-center flex-col">
+                <h1 className='w-full flex justify-center'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                  totam.
+                </h1>
+                <h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                  totam.
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, totam.
+                  </h1>
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, totam.
+                  </h1>
+                  <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, totam.
+                  </h1>
+                </h1>
+              </div>
+            </div>
+             }
             <div className="w-[40%] flex justify-center items-center gap-3">
-           
               <Link to={"/favorite"}>
                 <div className="relative">
-
                   <FiStar className="text-xl md:text-2xl" />
                   <p className="w-5 h-5 rounded-full bg-red-700 flex justify-center items-center absolute -top-2 ">
                     <span className="text-white">0</span>
@@ -82,6 +107,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+
         <div className="bg-green-900 w-full h-auto ">
           <div className="flex justify-between w-full max-w-screen mx-auto p-4 px-5">
             <div className="text-white w-full">
@@ -93,13 +119,13 @@ export default function Header() {
               </span>
             </div>
             <div className="text-white w-full flex justify-center items-center gap-3 md:gap-5 ">
-               {
-                bottomNav.map((item)=>(
-                   <Link key={item.id} to={item.link}>
-                     <p className='text-xl font-semibold md:text-2xl hover:opacity-50 transition duration-500'>{item.title}</p>
-                   </Link>
-                ))
-               }
+              {bottomNav.map((item) => (
+                <Link key={item.id} to={item.link}>
+                  <p className="text-xl font-semibold md:text-2xl hover:opacity-50 transition duration-500">
+                    {item.title}
+                  </p>
+                </Link>
+              ))}
             </div>
           </div>
         </div>

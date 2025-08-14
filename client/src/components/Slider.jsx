@@ -4,6 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 
 import { Link } from "react-router-dom";
 import airpodes from "../assets/airpodes/airpodesData.js";
+import CustomLeftArrow from "./CustomLeftArrow.jsx";
+import CustomRightArrow from "./CustomRightArrow.jsx";
 export default function Slider() {
     const responsive = {
       desktop: {
@@ -29,16 +31,19 @@ export default function Slider() {
       infinite={true}
       autoPlay={true}
       transitionDuration={1000}
+      customLeftArrow={<CustomLeftArrow/>}
+      customRightArrow={<CustomRightArrow/>}
       className="flex flex-row p-4 max-w-screen-xl mx-auto lg:px-0 relative z-0"
     >
-      {
-        airpodes.map((item)=>(
-          <Link to={"/airpode"} className="flex items-center border border-green-900 hover:shadow-md px-2 rounded-md py-1 gap-4 mr-2">
-           <img src={item.image} alt="" className="w-10 h-10 rounded-full"/>
-            <span>{item.name}</span>
-          </Link>
-        ))
-      }
+      {airpodes.map((item) => (
+        <Link
+          to={"/airpode"}
+          className="flex items-center border border-green-900 hover:shadow-md px-2 rounded-md py-1 gap-4 mr-2"
+        >
+          <img src={item.image} alt="" className="w-10 h-10 rounded-full" />
+          <span>{item.name}</span>
+        </Link>
+      ))}
     </Carousel>
     // <div className=" h-auto px-5 flex justify-center -z-1">
 
