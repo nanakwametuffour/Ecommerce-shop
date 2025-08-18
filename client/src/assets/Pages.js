@@ -9,7 +9,7 @@ export const sidePages = [
   { id: 2, title: "tv", link: "/tv" },
   { id: 3, title: "speaker", link: "/speaker" },
   { id: 4, title: "camera", link: "/camera" },
-  { id: 5, title: "mobile", link: "/moblie" },
+  { id: 5, title: "mobile", link: "/mobile" },
   { id: 6, title: "watch", link: "/watch" },
   { id: 7, title: "trimmer", link: "/trimmers" },
   { id: 8, title: "refrigertor", link: "/refrigerator" },

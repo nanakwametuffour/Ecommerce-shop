@@ -7,11 +7,22 @@ import { FiShoppingCart, FiStar, FiUser } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import  logo  from "/src/assets/bag.JPEG";
 import { bottomNav } from '../assets/Pages';
+import { searchProduct } from '../assets/searchData';
  
 
 export default function Header() {
    const [searchForm, setSearchForm] = useState("")
   const [sideBar, setSideBar] = useState(false)
+    const [searchOf, setSearchOf] = useState(false)
+   const [seachFilter, setSearchFilter]=useState(searchProduct)
+            
+    const filterItem =()=>{
+       const filterProduct = searchProduct.filter((item)=>
+        item.titile.toLowerCase().includes(searchForm.toLowerCase())
+      )
+       setSearchFilter(filterProduct)
+    }
+            
   const ref =  useRef()
   useEffect(()=>{
     document.body.addEventListener("click",(e)=>{
@@ -24,6 +35,10 @@ export default function Header() {
 
    const handleSearch=(e)=>{
     setSearchForm(e.target.value)
+    const filterProduct = searchProduct.filter((item) =>
+      item.titile.toLowerCase().includes(searchForm.toLowerCase())
+    );
+    setSearchFilter(filterProduct);
    }
   return (
     <header className=" w-full h-auto sticky top-0 z-50">
@@ -43,6 +58,7 @@ export default function Header() {
                 type="text"
                 onChange={handleSearch}
                 value={searchForm}
+                onClick={() => setSearchOf(true)}
                 className="w-[100%] focus:outline-none"
                 placeholder="Search product.."
               />
@@ -59,33 +75,40 @@ export default function Header() {
                 )}
               </div>
             </div>
-             {searchForm &&
-
-            <div className=" absolute  right-0  left-0 top-[58px] mx-auto h-auto flex justify-center items-center w-full px-10 ">
-              <div className="bg-white w-[60%] md:w-[50%] shadow-xl border-t-2 border-green-900 ml-16 p-5 flex justify-center flex-col">
-                <h1 className='w-full flex justify-center'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  totam.
-                </h1>
-                <h1>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  totam.
-                  <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, totam.
-                  </h1>
-                  <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, totam.
-                  </h1>
-                  <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, totam.
-                  </h1>
-                </h1>
+            {searchOf && (
+              <div className="">
+                {searchForm && (
+                  <div
+                    onClick={() => setSearchOf(false)}
+                    className=" fixed  right-0  left-0 top-20 cursor-pointer mx-auto  flex justify-center bg-black/60 z-10 items-center w-screen h-full px-10 "
+                  >
+                    <div
+                      onClick={() => setSearchOf(false)}
+                      className="bg-white overflow-y-auto h-[450px] w-[70%] md:w-[60%] absolute -top-[25px] shadow-xl border-t-2 border-green-900 ml-16 p-5 flex justify-center flex-col"
+                    >
+                      <div className="flex gap-2 flex-col  mt-60">
+                        {seachFilter.map((item) => (
+                          <div className="flex gap-3 items-center">
+                            <FaSearch className='text-gray-600'/>
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="w-10 h-10 object-cover"
+                            />
+                            <Link to={item.link}>
+                              <p className="text-xs md:text-base">
+                                {item.description}
+                              </p>
+                            </Link>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
-            </div>
-             }
+            )}
+
             <div className="w-[40%] flex justify-center items-center gap-3">
               <Link to={"/favorite"}>
                 <div className="relative">

@@ -21,6 +21,7 @@ import Speaker from './pages/Speaker'
 import About from './components/About'
 import Camera from './pages/Camera'
 import Refrigerator from './pages/Refrigerator'
+import Watch from './pages/Watch'
 
 export default function App() {
   return (
@@ -30,8 +31,8 @@ export default function App() {
           <Route element={<LayOut />}>
             <Route path="/" element={<Home />} />
             <Route path="/mobile" element={<Mobile />} />
-            <Route path="/camera" element={<Clothes />} />
-            <Route path="/refrigerator" element={<Refrigerator/>} />
+            <Route path="/camera" element={<Camera />} />
+            <Route path="/refrigerator" element={<Refrigerator />} />
             <Route path="/clothes" element={<Clothes />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="product" element={<Product />} />
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/speaker" element={<Speaker />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/about" element={<About />} />
+            <Route path="/watch" element={<Watch/>} />
             <Route path="/favorite" element={<Favorite />} />
           </Route>
         </Routes>
