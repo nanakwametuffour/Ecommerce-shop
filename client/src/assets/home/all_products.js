@@ -41,6 +41,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p1_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 50,
     old_price: 80,
   },
@@ -49,6 +51,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p2_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?,",
     new_price: 85,
     old_price: 120,
   },
@@ -57,6 +61,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p3_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 60,
     old_price: 100,
   },
@@ -65,6 +71,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p4_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 100,
     old_price: 150,
   },
@@ -73,6 +81,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p5_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -81,6 +91,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p6_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -89,6 +101,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p7_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -97,6 +111,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p8_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -105,6 +121,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p9_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -113,6 +131,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p10_img,
+    description:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -121,6 +141,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p11_img,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -129,6 +151,8 @@ const all_products = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "clothing",
     image: p12_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -137,6 +161,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p13_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -145,6 +171,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p14_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -153,6 +181,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p15_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -161,6 +191,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p16_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -169,6 +201,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p17_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -177,6 +211,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p18_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -185,6 +221,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p19_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -193,6 +231,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p20_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -201,6 +241,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p21_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -209,6 +251,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p22_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -217,6 +261,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p23_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -225,6 +271,8 @@ const all_products = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "electronics",
     image: p24_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione, sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -233,6 +281,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p25_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -241,6 +291,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p26_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -249,6 +301,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p27_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -257,6 +311,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p28_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -265,6 +321,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p29_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -273,6 +331,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p30_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -281,6 +341,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p31_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -289,6 +351,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p32_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -297,6 +361,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p33_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -305,6 +371,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p34_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -313,6 +381,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p35_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },
@@ -321,6 +391,8 @@ const all_products = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "cosmetics",
     image: p36_img,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     new_price: 85,
     old_price: 120,
   },

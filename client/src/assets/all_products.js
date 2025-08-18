@@ -38,6 +38,9 @@ import p36_img from "./product_36.png";
 let all_products = [
   {
     id: 1,
+
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Sweat top",
     category: "clothing",
     image: p1_img,
@@ -46,27 +49,32 @@ let all_products = [
   },
   {
     id: 2,
+
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "vans",
     category: "sneakers",
     image: p2_img,
     new_price: 85,
     old_price: 120,
   },
-  
- 
+
   {
     id: 5,
+
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "nike shoe",
     category: "sneakers",
     image: p5_img,
     new_price: 85,
     old_price: 120,
   },
-  
- 
-  
+
   {
     id: 10,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: " jacket",
     category: "clothing",
     image: p10_img,
@@ -75,6 +83,8 @@ let all_products = [
   },
   {
     id: 11,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: " jacket",
     category: "clothing",
     image: p11_img,
@@ -83,6 +93,8 @@ let all_products = [
   },
   {
     id: 12,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "nike",
     category: "sneakers",
     image: p12_img,
@@ -91,6 +103,8 @@ let all_products = [
   },
   {
     id: 13,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "watch",
     category: "electronics",
     image: p13_img,
@@ -99,6 +113,8 @@ let all_products = [
   },
   {
     id: 14,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "laptop",
     category: "electronics",
     image: p14_img,
@@ -107,6 +123,8 @@ let all_products = [
   },
   {
     id: 15,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "watch",
     category: "electronics",
     image: p15_img,
@@ -115,6 +133,8 @@ let all_products = [
   },
   {
     id: 16,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "charger",
     category: "electronics",
     image: p16_img,
@@ -123,6 +143,8 @@ let all_products = [
   },
   {
     id: 17,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "watch",
     category: "electronics",
     image: p17_img,
@@ -131,6 +153,8 @@ let all_products = [
   },
   {
     id: 18,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "pendrive",
     category: "electronics",
     image: p18_img,
@@ -139,6 +163,8 @@ let all_products = [
   },
   {
     id: 19,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "mobile",
     category: "electronics",
     image: p19_img,
@@ -147,6 +173,8 @@ let all_products = [
   },
   {
     id: 20,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "airpode",
     category: "electronics",
     image: p20_img,
@@ -155,6 +183,8 @@ let all_products = [
   },
   {
     id: 21,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "headphone",
     category: "electronics",
     image: p21_img,
@@ -163,6 +193,8 @@ let all_products = [
   },
   {
     id: 22,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "bluetooth",
     category: "electronics",
     image: p22_img,
@@ -171,6 +203,8 @@ let all_products = [
   },
   {
     id: 23,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "earphone",
     category: "electronics",
     image: p23_img,
@@ -179,6 +213,8 @@ let all_products = [
   },
   {
     id: 24,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "headphone",
     category: "electronics",
     image: p24_img,
@@ -187,6 +223,8 @@ let all_products = [
   },
   {
     id: 25,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "versace",
     category: "perfume",
     image: p25_img,
@@ -195,6 +233,8 @@ let all_products = [
   },
   {
     id: 26,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "nivea",
     category: "cosmetics",
     image: p26_img,
@@ -203,6 +243,8 @@ let all_products = [
   },
   {
     id: 27,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "oil skin",
     category: "cosmetics",
     image: p27_img,
@@ -211,6 +253,8 @@ let all_products = [
   },
   {
     id: 28,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Belle",
     category: "cosmetics",
     image: p28_img,
@@ -219,6 +263,8 @@ let all_products = [
   },
   {
     id: 29,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: " Sweatshirt",
     category: "cosmetics",
     image: p29_img,
@@ -227,6 +273,8 @@ let all_products = [
   },
   {
     id: 30,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "burberry",
     category: "cosmetics",
     image: p30_img,
@@ -235,6 +283,8 @@ let all_products = [
   },
   {
     id: 31,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Boss",
     category: "cosmetics",
     image: p31_img,
@@ -243,6 +293,8 @@ let all_products = [
   },
   {
     id: 32,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Tresemme",
     category: "cosmetics",
     image: p32_img,
@@ -251,6 +303,8 @@ let all_products = [
   },
   {
     id: 33,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Burberry",
     category: "cosmetics",
     image: p33_img,
@@ -259,6 +313,8 @@ let all_products = [
   },
   {
     id: 34,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "Grovi",
     category: "cosmetics",
     image: p34_img,
@@ -267,6 +323,8 @@ let all_products = [
   },
   {
     id: 35,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: " robonne",
     category: "cosmetics",
     image: p35_img,
@@ -275,6 +333,8 @@ let all_products = [
   },
   {
     id: 36,
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus quidem nostrum consectetur ratione sint?",
     name: "laneige",
     category: "cosmetics",
     image: p36_img,

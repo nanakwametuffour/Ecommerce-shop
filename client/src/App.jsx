@@ -9,7 +9,7 @@ import Product from './pages/Product'
 import Account from './pages/Account'
 import NotFound from './pages/NotFound'
 import Profile from './pages/Profile'
-import Favorite from './pages/Favorite'
+
 import Airpode from './pages/Airpode'
 import Tv from './pages/Tv'
 import Mobile from './pages/Mobile'
@@ -22,6 +22,7 @@ import About from './components/About'
 import Camera from './pages/Camera'
 import Refrigerator from './pages/Refrigerator'
 import Watch from './pages/Watch'
+import WishList from './pages/WishList'
 
 export default function App() {
   return (
@@ -47,7 +48,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="/about" element={<About />} />
             <Route path="/watch" element={<Watch/>} />
-            <Route path="/favorite" element={<Favorite />} />
+            <Route path="/wishlist" element={<WishList />} />
           </Route>
         </Routes>
       </BrowserRouter>

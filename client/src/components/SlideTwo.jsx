@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { TiShoppingCart } from "react-icons/ti";
-
+ import {useDispatch} from 'react-redux'
 import all_products from "../assets/all_products";
 
 import { CiHeart } from "react-icons/ci";
+import { addToCart } from "../redux/productSlice";
 export default function SlideTwo() {
+  const dispatch = useDispatch()
   const [showMore, setShowMore] = useState(12);
   const slice = all_products.slice(0, showMore);
   const viewMore = () => {
@@ -33,7 +35,16 @@ export default function SlideTwo() {
                   <CiHeart />
                 </span>
                 <span className="text-white  text-2xl bg-green-950 cursor-pointer p-2 rounded-full">
-                  <TiShoppingCart />
+                  <TiShoppingCart onClick={()=>dispatch(addToCart({
+                    id: item.id,
+                    image: item.image,
+                     name: item.name,
+                     category: item.category,
+                      description: item.description,
+                      new_price: item.new_price,
+                      old_price: item.old_price,
+                      quantity: 1
+                  }))}/>
                 </span>
               </div>
             </div>

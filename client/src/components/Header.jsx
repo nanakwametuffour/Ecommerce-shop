@@ -8,14 +8,16 @@ import { Link } from 'react-router-dom';
 import  logo  from "/src/assets/bag.JPEG";
 import { bottomNav } from '../assets/Pages';
 import { searchProduct } from '../assets/searchData';
- 
-
+ import {useSelector} from 'react-redux'
 export default function Header() {
    const [searchForm, setSearchForm] = useState("")
   const [sideBar, setSideBar] = useState(false)
     const [searchOf, setSearchOf] = useState(false)
    const [seachFilter, setSearchFilter]=useState(searchProduct)
-            
+      const product = useSelector((item)=>item.cart.productItem)    
+          // console.log(product);
+          
+           
     const filterItem =()=>{
        const filterProduct = searchProduct.filter((item)=>
         item.titile.toLowerCase().includes(searchForm.toLowerCase())
@@ -86,16 +88,16 @@ export default function Header() {
                       onClick={() => setSearchOf(false)}
                       className="bg-white overflow-y-auto h-[450px] w-[70%] md:w-[60%] absolute -top-[25px] shadow-xl border-t-2 border-green-900 ml-16 p-5 flex justify-center flex-col"
                     >
-                      <div className="flex gap-2 flex-col  mt-60">
+                      <div className="flex gap-2 flex-col  mt-10">
                         {seachFilter.map((item) => (
                           <div className="flex gap-3 items-center">
-                            <FaSearch className='text-gray-600'/>
+                            <FaSearch className="text-gray-600" />
                             <img
                               src={item.image}
                               alt=""
                               className="w-10 h-10 object-cover"
                             />
-                            <Link to={item.link}>
+                            <Link to={item.link} className="h-10">
                               <p className="text-xs md:text-base">
                                 {item.description}
                               </p>
@@ -110,7 +112,7 @@ export default function Header() {
             )}
 
             <div className="w-[40%] flex justify-center items-center gap-3">
-              <Link to={"/favorite"}>
+              <Link to={"/wishlist"}>
                 <div className="relative">
                   <FiStar className="text-xl md:text-2xl" />
                   <p className="w-5 h-5 rounded-full bg-red-700 flex justify-center items-center absolute -top-2 ">
@@ -123,7 +125,11 @@ export default function Header() {
                 <div className="relative cursor-pointer">
                   <FiShoppingCart className="text-xl md:text-2xl" />
                   <p className="w-5 h-5 rounded-full bg-red-700 flex justify-center items-center absolute -top-2 -right-2">
-                    <span className="text-white">0</span>
+                    {product.length > 0 ? (
+                      <span className="text-white">{product.length}</span>
+                    ) : (
+                      <span className="text-white">0</span>
+                    )}
                   </p>
                 </div>
               </Link>
