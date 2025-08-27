@@ -11,7 +11,7 @@ export default function DiscountProduct() {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 w-full justify-center items-center gap-2">
         {KidsProductData.slice(0, 8).map((item) => (
-          <Link to={"/kids"}>
+          <Link key={item.id} to={"/kids"}>
             <div className="flex justify-center flex-col shadow-md my-3">
               <img
                 src={item.img}
