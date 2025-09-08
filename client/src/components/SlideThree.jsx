@@ -45,7 +45,7 @@ export default function SlideThree() {
                      <div className="flex flex-col gap-5 p-2  overflow-hidden">
                        <Link to={"/clothes"}>
                          <picture className=' overflow-hidden group'>
-                           <img loading='priority' src={item.img} alt="" className='h-[300px] w-full group-hover:scale-105 group-hover:opacity-70 duration-500 object-cover rounded-sm opacity-0.2'/>
+                           <img loading='priority' src={item.image} alt="" className='h-[300px] w-full group-hover:scale-105 group-hover:opacity-70 duration-500 object-cover rounded-sm opacity-0.2'/>
                          </picture>
                        </Link>
                        <div className="">

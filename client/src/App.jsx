@@ -23,6 +23,9 @@ import Camera from './pages/Camera'
 import Refrigerator from './pages/Refrigerator'
 import Watch from './pages/Watch'
 import WishList from './pages/WishList'
+import Men from './pages/Men'
+import Women from './pages/Women'
+import Kids from './pages/Kids'
 
 export default function App() {
   return (
@@ -39,16 +42,20 @@ export default function App() {
             <Route path="product" element={<Product />} />
             <Route path="/product/:id" element={<Product />} />
             <Route path="/airpode" element={<Airpode />} />
+            <Route path="/earphones" element={<Earphones />} />
             <Route path="/tv" element={<Tv />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/mouse" element={<Mouse />} />
-            <Route path="/trimmer" element={<Trimmers />} />
+            <Route path="/trimmers" element={<Trimmers />} />
             <Route path="/earphone" element={<Earphones />} />
             <Route path="/speaker" element={<Speaker />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/about" element={<About />} />
-            <Route path="/watch" element={<Watch/>} />
+            <Route path="/watch" element={<Watch />} />
             <Route path="/wishlist" element={<WishList />} />
+            <Route path="/men" element={<Men />} />
+            <Route path="/women" element={<Women />} />
+            <Route path="/kids" element={<Kids />} />
           </Route>
         </Routes>
       </BrowserRouter>

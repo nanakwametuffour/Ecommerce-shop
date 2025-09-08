@@ -63,153 +63,143 @@ const airpodes = [
   {
     id: 1,
     name: "Samsung",
-    price: "$96.38",
-    category: "alcatel",
-    description: "vivo",
+    new_price: 96.54,
+     category: "samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode1,
     type: "Lenovo",
   },
   {
-    id: 2,
-    name: "HTC",
-    price: "$36.58",
-    category: "Kyocera",
-    description: "alcatel",
-    image: img_airpode2,
-    type: "Icemobile",
-  },
-  {
-    id: 3,
-    name: "Motorola",
-    price: "$93.66",
-    category: "Samsung",
-    description: "Lava",
-    image: img_airpode3,
-    type: "Samsung",
-  },
-  {
-    id: 4,
-    name: "Nokia",
-    price: "$21.72",
-    category: "Prestigio",
-    description: "Icemobile",
-    image: img_airpode4,
-    type: "Philips",
-  },
-  {
-    id: 5,
-    name: "HTC",
-    price: "$21.56",
-    category: "verykool",
-    description: "Allview",
-    image: img_airpode5,
-    type: "Nokia",
-  },
-  {
     id: 6,
     name: "Apple",
-    price: "$66.85",
+    new_price: 66.33,
     category: "Motorola",
-    description: "Nokia",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode6,
     type: "Modu",
   },
   {
     id: 7,
     name: "HTC",
-    price: "$72.53",
+    new_price: 72.77,
     category: "Celkon",
-    description: "Nokia",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode7,
     type: "XOLO",
   },
   {
     id: 8,
     name: "Posh",
-    price: "$97.50",
+    new_price: 97.10,
     category: "Lenovo",
-    description: "Sony",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode8,
     type: "Lenovo",
   },
   {
     id: 9,
     name: "Unnecto",
-    price: "$93.33",
+    new_price: 93.17,
     category: "WND",
-    description: "LG",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode9,
     type: "Philips",
   },
   {
     id: 10,
     name: "Huawei",
-    price: "$76.36",
+    new_price: 76.36,
     category: "Huawei",
-    description: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode10,
     type: "Sony",
   },
   {
     id: 11,
     name: "Sewon",
-    price: "$92.99",
+    new_price: 92.99,
     category: "Asus",
-    description: "HTC",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode11,
     type: "alcatel",
   },
   {
     id: 12,
     name: "Tecno",
-    price: "$50.99",
+    new_price: 50.99,
     category: "Gionee",
-    description: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode12,
     type: "Motorola",
   },
   {
     id: 13,
     name: "LG",
-    price: "$18.15",
+    new_price: 18.15,
     category: "LG",
-    description: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode13,
     type: "Allview",
   },
   {
     id: 14,
     name: "Sagem",
-    price: "$62.48",
+    new_price: 62.48,
     category: "Sony",
-    description: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode1,
     type: "Sony",
   },
   {
     id: 15,
     name: "NIU",
-    price: "$27.02",
+    new_price: "$27.02",
     category: "Panasonic",
-    description: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode14,
     type: "Mitac",
   },
   {
     id: 16,
     name: "HTC",
-    price: "$75.16",
+    new_price: 75.16,
     category: "Sony",
-    description: "Lenovo",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode15,
     type: "Huawei",
   },
   {
     id: 17,
     name: "Intex",
-    price: "$21.75",
+    new_price: 21.75,
     category: "LG",
-    description: "Sendo",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode16,
     type: "Oppo",
   },
@@ -217,9 +207,11 @@ const airpodes = [
   {
     id: 33,
     name: "Samsung",
-    price: "$78.13",
+    new_price: 78.13,
     category: "Wiko",
-    description: "BLU",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode32,
     type: "Micromax",
   },
@@ -227,63 +219,77 @@ const airpodes = [
   {
     id: 34,
     name: "Lenovo",
-    price: "$83.30",
+    new_price: 83.30,
     category: "Micromax",
-    description: "BLU",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode34,
     type: "alcatel",
   },
   {
     id: 35,
     name: "Philips",
-    price: "$89.19",
+    new_price: 89.19,
     category: "Lava",
-    description: "BLU",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode35,
     type: "Wiko",
   },
   {
     id: 36,
     name: "ZTE",
-    price: "$58.81",
+    new_price: 58.81,
     category: "vivo",
-    description: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode1,
     type: "HTC",
   },
   {
     id: 37,
     name: "Motorola",
-    price: "$19.58",
+    new_price: 19.58,
     category: "Oppo",
-    description: "i-mate",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode36,
     type: "Orange",
   },
   {
     id: 38,
     name: "Gigabyte",
-    price: "$39.67",
+    new_price: 39.67,
     category: "BlackBerry",
-    description: "Karbonn",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode37,
     type: "Samsung",
   },
   {
     id: 39,
     name: "Ericsson",
-    price: "$69.25",
+    new_price: 69.25,
     category: "Plum",
-    description: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode38,
     type: "NEC",
   },
   {
     id: 40,
     name: "Sony",
-    price: "$59.87",
+    new_price: 59.87,
     category: "Allview",
-    description: "Modu",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode39,
     type: "Apple",
   },
@@ -291,153 +297,187 @@ const airpodes = [
   {
     id: 41,
     name: "Spice",
-    price: "$31.56",
+    new_price: 31.56,
     category: "Samsung",
-    description: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode40,
     type: "Motorola",
   },
   {
     id: 42,
     name: "Nokia",
-    price: "$46.65",
+    new_price: 46.65,
     category: "alcatel",
-    description: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode41,
     type: "ZTE",
   },
   {
     id: 43,
     name: "LG",
-    price: "$42.59",
+    new_price: 42.59,
     category: "Asus",
-    description: "LG",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode42,
     type: "LG",
   },
   {
     id: 44,
     name: "LG",
-    price: "$58.95",
+    new_price: 58.95,
     category: "NEC",
-    description: "Pantech",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode43,
     type: "Benefon",
   },
   {
     id: 45,
     name: "Philips",
-    price: "$92.66",
+    new_price: 92.66,
     category: "Gionee",
-    description: "XOLO",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode44,
     type: "Benefon",
   },
   {
     id: 46,
     name: "Nokia",
-    price: "$51.93",
+    new_price: 51.93,
     category: "Celkon",
-    description: "Realme",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode45,
     type: "Bird",
   },
   {
     id: 47,
     name: "alcatel",
-    price: "$63.13",
+    new_price: 63.13,
     category: "Philips",
-    description: "Karbonn",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode46,
     type: "i-mobile",
   },
   {
     id: 48,
     name: "verykool",
-    price: "$33.76",
+    new_price: 33.76,
     category: "Samsung",
-    description: "HTC",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode47,
     type: "LG",
   },
   {
     id: 49,
     name: "Allview",
-    price: "$36.08",
+    new_price: 36.08,
     category: "Nokia",
-    description: "BLU",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode48,
     type: "Oppo",
   },
   {
     id: 50,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode49,
     type: "Motorola",
   },
   {
     id: 51,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode50,
     type: "Motorola",
   },
   {
     id: 52,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode51,
     type: "Motorola",
   },
   {
     id: 53,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode52,
     type: "Motorola",
   },
   {
     id: 54,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode53,
     type: "Motorola",
   },
   {
     id: 55,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode54,
     type: "Motorola",
   },
   {
     id: 56,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode55,
     type: "Motorola",
   },
   {
     id: 57,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode56,
     type: "Motorola",
   },
@@ -445,20 +485,22 @@ const airpodes = [
   {
     id: 60,
     image: img_airpode59,
+    new_price: 45.54,
     name: "Apple",
-  },
-  {
-    price: "$45.54",
-    category: "Xiaomi",
-    description: "QMobile",
     type: "Motorola",
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
   },
+
   {
     id: 61,
     name: "Apple",
-    price: "$45.54",
+    new_price: 45.54,
     category: "Xiaomi",
-    description: "QMobile",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
     image: img_airpode60,
     type: "Motorola",
   },

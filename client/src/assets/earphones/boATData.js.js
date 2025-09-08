@@ -56,8 +56,10 @@ const earphones = [
     image: boAt1,
     category: "Huawei",
     type: "Coolpad",
-    description: "Lava",
-    price: "$37.76",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+
+    new_price: 37.76,
   },
   {
     id: 2,
@@ -65,35 +67,20 @@ const earphones = [
     image: boAt2,
     category: "HTC",
     type: "Samsung",
-    description: "alcatel",
-    price: "$33.41",
-  },
-  {
-    id: 3,
-    name: "Sharp",
-    image: boAt3,
-    category: "Huawei",
-    type: "Nokia",
-    description: "Sagem",
-    price: "$49.58",
-  },
-  {
-    id: 4,
-    name: "Nokia",
-    image: boAt4,
-    category: "Samsung",
-    type: "LG",
-    description: "Huawei",
-    price: "$45.68",
-  },
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 52.41,
+ },
+
   {
     id: 5,
     name: "Huawei",
     image: boAt5,
     category: "HTC",
     type: "Samsung",
-    description: "Philips",
-    price: "$47.62",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 47.62,
   },
   {
     id: 6,
@@ -101,8 +88,9 @@ const earphones = [
     image: boAt6,
     category: "LG",
     type: "Micromax",
-    description: "alcatel",
-    price: "$41.00",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 41.00,
   },
   {
     id: 7,
@@ -110,8 +98,9 @@ const earphones = [
     image: boAt7,
     category: "Panasonic",
     type: "Ulefone",
-    description: "ZTE",
-    price: "$40.88",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 40.88,
   },
   {
     id: 8,
@@ -119,8 +108,9 @@ const earphones = [
     image: boAt8,
     category: "Allview",
     type: "Yezz",
-    description: "Ericsson",
-    price: "$44.39",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 44.39,
   },
   {
     id: 9,
@@ -128,8 +118,9 @@ const earphones = [
     image: boAt9,
     category: "Panasonic",
     type: "Samsung",
-    description: "Sony",
-    price: "$41.81",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 41.81,
   },
   {
     id: 10,
@@ -137,8 +128,9 @@ const earphones = [
     image: boAt10,
     category: "Samsung",
     type: "Yezz",
-    description: "Samsung",
-    price: "$35.85",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 35.85,
   },
   {
     id: 11,
@@ -146,8 +138,9 @@ const earphones = [
     image: boAt11,
     category: "Philips",
     type: "Samsung",
-    description: "Samsung",
-    price: "$25.71",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 25.71,
   },
   {
     id: 12,
@@ -155,8 +148,9 @@ const earphones = [
     image: boAt12,
     category: "Meizu",
     type: "Tecno",
-    description: "Sony",
-    price: "$31.03",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 31.03,
   },
   {
     id: 13,
@@ -164,8 +158,9 @@ const earphones = [
     image: boAt13,
     category: "LG",
     type: "Modu",
-    description: "Lenovo",
-    price: "$33.26",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 33.26,
   },
   {
     id: 14,
@@ -173,8 +168,9 @@ const earphones = [
     image: boAt14,
     category: "Motorola",
     type: "Samsung",
-    description: "Benefon",
-    price: "$24.55",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 24.55,
   },
   {
     id: 15,
@@ -182,8 +178,9 @@ const earphones = [
     image: boAt15,
     category: "HTC",
     type: "alcatel",
-    description: "Gigabyte",
-    price: "$12.59",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 12.59,
   },
   {
     id: 16,
@@ -191,8 +188,9 @@ const earphones = [
     image: boAt16,
     category: "HTC",
     type: "LG",
-    description: "HTC",
-    price: "$34.98",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 34.98,
   },
   {
     id: 17,
@@ -200,8 +198,9 @@ const earphones = [
     image: boAt17,
     category: "Gionee",
     type: "Allview",
-    description: "Samsung",
-    price: "$40.76",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 40.76,
   },
   {
     id: 18,
@@ -209,8 +208,9 @@ const earphones = [
     image: boAt18,
     category: "LG",
     type: "Samsung",
-    description: "Celkon",
-    price: "$36.02",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 36.02,
   },
   {
     id: 19,
@@ -218,8 +218,9 @@ const earphones = [
     image: boAt19,
     category: "LG",
     type: "Micromax",
-    description: "Acer",
-    price: "$31.93",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 31.93,
   },
   {
     id: 20,
@@ -227,8 +228,9 @@ const earphones = [
     image: boAt20,
     category: "Micromax",
     type: "Micromax",
-    description: "Nokia",
-    price: "$11.23",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 11.23,
   },
   {
     id: 21,
@@ -236,8 +238,9 @@ const earphones = [
     image: boAt21,
     category: "Yezz",
     type: "Micromax",
-    description: "Samsung",
-    price: "$25.16",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 25.16,
   },
   {
     id: 22,
@@ -245,8 +248,9 @@ const earphones = [
     image: boAt22,
     category: "Oppo",
     type: "Panasonic",
-    description: "Philips",
-    price: "$20.73",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 20.73,
   },
   {
     id: 23,
@@ -254,8 +258,9 @@ const earphones = [
     image: boAt23,
     category: "Samsung",
     type: "ZTE",
-    description: "Samsung",
-    price: "$18.01",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 18.01,
   },
   {
     id: 24,
@@ -263,8 +268,9 @@ const earphones = [
     image: boAt24,
     category: "Asus",
     type: "Vodafone",
-    description: "Celkon",
-    price: "$37.63",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 37.63,
   },
   {
     id: 25,
@@ -272,8 +278,9 @@ const earphones = [
     image: boAt25,
     category: "LG",
     type: "Oppo",
-    description: "BLU",
-    price: "$44.34",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 44.34,
   },
   {
     id: 26,
@@ -281,8 +288,9 @@ const earphones = [
     image: boAt26,
     category: "Honor",
     type: "LG",
-    description: "Samsung",
-    price: "$32.10",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 32.10,
   },
   {
     id: 27,
@@ -290,8 +298,9 @@ const earphones = [
     image: boAt27,
     category: "Allview",
     type: "Lenovo",
-    description: "Nokia",
-    price: "$25.75",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 25.75,
   },
   {
     id: 28,
@@ -299,8 +308,9 @@ const earphones = [
     image: boAt28,
     category: "Karbonn",
     type: "Samsung",
-    description: "Celkon",
-    price: "$43.89",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 43.89,
   },
   {
     id: 29,
@@ -308,8 +318,9 @@ const earphones = [
     image: boAt29,
     category: "Infinix",
     type: "HTC",
-    description: "Micromax",
-    price: "$37.46",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 37.46,
   },
   {
     id: 30,
@@ -317,8 +328,9 @@ const earphones = [
     image: boAt30,
     category: "Philips",
     type: "Tecno",
-    description: "LG",
-    price: "$28.93",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 28.93,
   },
   {
     id: 31,
@@ -326,8 +338,9 @@ const earphones = [
     image: boAt31,
     category: "Bird",
     type: "Panasonic",
-    description: "Huawei",
-    price: "$18.55",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 18.55,
   },
   {
     id: 32,
@@ -335,8 +348,9 @@ const earphones = [
     image: boAt32,
     category: "Sony",
     type: "Lenovo",
-    description: "Realme",
-    price: "$20.24",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 20.24,
   },
   {
     id: 33,
@@ -344,8 +358,9 @@ const earphones = [
     image: boAt33,
     category: "Posh",
     type: "Gionee",
-    description: "Microsoft",
-    price: "$23.40",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 23.40,
   },
   {
     id: 34,
@@ -353,8 +368,9 @@ const earphones = [
     image: boAt34,
     category: "Motorola",
     type: "Sagem",
-    description: "Plum",
-    price: "$17.14",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 17.14,
   },
   {
     id: 35,
@@ -362,8 +378,9 @@ const earphones = [
     image: boAt35,
     category: "Samsung",
     type: "LG",
-    description: "Mitsubishi",
-    price: "$37.30",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 37.30,
   },
   {
     id: 36,
@@ -371,8 +388,9 @@ const earphones = [
     image: boAt36,
     category: "Micromax",
     type: "BLU",
-    description: "Siemens",
-    price: "$28.98",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 28.98,
   },
   {
     id: 37,
@@ -380,8 +398,9 @@ const earphones = [
     image: boAt37,
     category: "Oppo",
     type: "Samsung",
-    description: "BLU",
-    price: "$30.62",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 30.62,
   },
   {
     id: 38,
@@ -389,8 +408,9 @@ const earphones = [
     image: boAt38,
     category: "Kyocera",
     type: "HTC",
-    description: "Celkon",
-    price: "$49.81",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 49.81,
   },
   {
     id: 39,
@@ -398,8 +418,9 @@ const earphones = [
     image: boAt39,
     category: "BLU",
     type: "Samsung",
-    description: "LG",
-    price: "$43.75",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 43.75,
   },
   {
     id: 40,
@@ -407,8 +428,9 @@ const earphones = [
     image: boAt40,
     category: "Xiaomi",
     type: "Amoi",
-    description: "ZTE",
-    price: "$33.35",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 33.35,
   },
   {
     id: 41,
@@ -416,8 +438,9 @@ const earphones = [
     image: boAt41,
     category: "Motorola",
     type: "Intex",
-    description: "Sharp",
-    price: "$48.22",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 48.22,
   },
   {
     id: 42,
@@ -425,8 +448,9 @@ const earphones = [
     image: boAt42,
     category: "HTC",
     type: "Huawei",
-    description: "Micromax",
-    price: "$42.24",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 42.24,
   },
   {
     id: 43,
@@ -434,8 +458,9 @@ const earphones = [
     image: boAt43,
     category: "Micromax",
     type: "Prestigio",
-    description: "Micromax",
-    price: "$13.40",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 13.40,
   },
   {
     id: 44,
@@ -443,8 +468,9 @@ const earphones = [
     image: boAt44,
     category: "Plum",
     type: "Micromax",
-    description: "Nokia",
-    price: "$44.69",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 44.69,
   },
   {
     id: 45,
@@ -452,8 +478,9 @@ const earphones = [
     image: boAt45,
     category: "Philips",
     type: "Micromax",
-    description: "BQ",
-    price: "$30.28",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 30.28,
   },
   {
     id: 46,
@@ -461,8 +488,9 @@ const earphones = [
     image: boAt46,
     category: "Infinix",
     type: "Micromax",
-    description: "Sonim",
-    price: "$46.07",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 46.07,
   },
   {
     id: 47,
@@ -470,8 +498,9 @@ const earphones = [
     image: boAt47,
     category: "Lava",
     type: "Motorola",
-    description: "Apple",
-    price: "$27.29",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 27.29,
   },
   {
     id: 48,
@@ -479,8 +508,9 @@ const earphones = [
     image: boAt48,
     category: "Xiaomi",
     type: "Samsung",
-    description: "Yezz",
-    price: "$36.70",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 36.70,
   },
   {
     id: 49,
@@ -488,8 +518,9 @@ const earphones = [
     image: boAt49,
     category: "Lenovo",
     type: "Vodafone",
-    description: "Haier",
-    price: "$43.05",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 43.05,
   },
   {
     id: 50,
@@ -497,8 +528,9 @@ const earphones = [
     image: boAt50,
     category: "Meizu",
     type: "Celkon",
-    description: "LG",
-    price: "$12.80",
+    description:
+      "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt repudiandae similique facilis eum, fugit quod quas cum magnam maiores.",
+    new_price: 12.80,
   },
 ];
 

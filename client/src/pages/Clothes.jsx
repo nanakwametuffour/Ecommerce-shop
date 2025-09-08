@@ -3,38 +3,41 @@ import { useEffect, useState } from "react";
 import { FaHeart, FaShoppingCart, FaStar, FaWallet } from "react-icons/fa";
 import { clothesData } from "../assets/clothes/clothes";
 import { addToCart } from "../redux/productSlice";
+import Loader from "../components/Loader";
+import { products } from "../assets/products";
 
 
 export default function Clothes() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemPerPage, setItemPerPage] = useState(8);
-  const [filterClothes, setFilterClothes] = useState(clothesData);
+  const [filterClothes, setFilterClothes] = useState(products);
   const [selectedColors, setSelectedColors] = useState([]);
    const dispatch = useDispatch()
+   
   // uniques start here......./////
 
   const uincClothes = [
     "All",
-    ...new Set(clothesData.map((clothe) => clothe.type)),
+    ...new Set(products.map((clothe) => clothe.category)),
   ];
 
   const uincGender = [
     "All",
-    ...new Set(clothesData.map((clothe) => clothe.gender)),
+    ...new Set(products.map((clothe) => clothe.gender)),
   ];
 
   const uniquesize = [
     "all",
-    ...new Set(clothesData.map((item) => item.size)),
+    ...new Set(products.map((item) => item.sizes)),
   ].join(" ");
-  console.log(uniquesize);
+  
 
   //========uniques ends here========//
 
   //  ========== functions start here ==========//
   const handlefilterType = (type) => {
     if (type === "All") {
-      setFilterClothes(clothesData);
+      setFilterClothes(products);
     } else {
       const filterdclothes = clothesData.filter((item) => item.type === type);
       setFilterClothes(filterdclothes);
@@ -42,9 +45,9 @@ export default function Clothes() {
   };
   const handlefilterGender = (gender) => {
     if (gender === "All") {
-      setFilterClothes(clothesData);
+      setFilterClothes(products);
     } else {
-      const filterdclothes = clothesData.filter(
+      const filterdclothes = products.filter(
         (item) => item.gender === gender
       );
       setFilterClothes(filterdclothes);
@@ -52,7 +55,7 @@ export default function Clothes() {
   };
 
   const handleSize = (minSize) => {
-    const filterSize = clothesData.filter(
+    const filterSize = products.filter(
       (item) => item.size.length >= minSize
     );
     setFilterClothes(filterSize);
@@ -73,15 +76,15 @@ export default function Clothes() {
   }
 
   //======select colors========//
-  const availableColors = ["red", "blue", "black", "grey", "white", "green"];
+  const availableColors = ["Medium Blue", "Dark Blue", "Vintage", "Blue", "Black"];
 
   useEffect(() => {
     if (selectedColors.length === 0) {
-      setFilterClothes(clothesData); // Show all if no colors selected
+      setFilterClothes(products); // Show all if no colors selected
     } else {
-      const newFilteredProducts = clothesData.filter(
+      const newFilteredProducts = products.filter(
         (product) =>
-          selectedColors.some((color) => product.color.includes(color)) // "OR" logic
+          selectedColors.some((color) => product.colors.includes(color)) // "OR" logic
       );
       setFilterClothes(newFilteredProducts);
     }
@@ -98,6 +101,9 @@ export default function Clothes() {
 
  
   return (
+    <div className="">
+       {
+        products.length < 10 ? <Loader/> : 
     <div>
       <div className="w-full flex flex-col md:flex-row my-7 px-2 md:px-5 gap-6">
         <div className="md:w-56  md:border-r-2 border-green-950  flex justify-center md:flex-col md:justify-start gap-4">
@@ -160,7 +166,7 @@ export default function Clothes() {
               </div>
               <div className="w-full flex flex-col gap-1 px-2  relative overflow-hidden">
                 <h5 className="font-semibold">{item.name}</h5>
-                <p className="text-sm">{item.text.substring(0, 150)}</p>
+                <p className="text-sm">{item.description}</p>
                 <div className="flex">
                   <FaStar className="text-green-950" />
                   <FaStar className="text-green-950" />
@@ -170,10 +176,10 @@ export default function Clothes() {
                 </div>
                 <span className="text-xl font-semibold">${item.new_price}</span>
 
-                <div className="bg-green-950 h-36 z-10 shadow-lg absolute bottom-0 right-0 left-0 transition translate-y-40 group-hover:translate-y-0 duration-300">
+                <div className="bg-green-950 h-38 z-20 shadow-lg absolute bottom-0 right-0 left-0 transition translate-y-40 group-hover:translate-y-0 duration-300">
                   <div className="w-full flex flex-col items-center gap-3 my-3 px-3 capitalize">
                     <p className="text-xl w-full flex justify-between items-center my-1">
-                      <span className=" w-full font-semibold">
+                      <span className=" w-full font-semibold text-white">
                         {item.gender}
                       </span>
                       <span>
@@ -181,13 +187,13 @@ export default function Clothes() {
                       </span>
                     </p>
                     <p className="text-xl  w-full flex justify-between items-center">
-                      <span>wishlist</span>
+                      <span className="text-white">wishlist</span>
                       <span>
                         <FaWallet className="animate-pulse text-2xl text-white" />
                       </span>
                     </p>
                     <p className="text-xl  w-full flex items-center justify-between">
-                      <span>add to cart</span>
+                      <span className="text-white">add to cart</span>
                       <button>
                         <FaShoppingCart
                           onClick={() =>
@@ -226,6 +232,8 @@ export default function Clothes() {
           );
         })}
       </nav>
+    </div>
+       }
     </div>
   );
 }

@@ -1,491 +1,478 @@
-const camera = [{
-    "id": 1,
-    "name": "Allview",
-    "image": "LG",
-    "category": "Gigabyte",
-    "type": "Samsung",
-    "description": "alcatel",
-    "price": "$255.11"
-  }, {
-    "id": 2,
-    "name": "Lenovo",
-    "image": "Micromax",
-    "category": "QMobile",
-    "type": "Sagem",
-    "description": "Samsung",
-    "price": "$159.52"
-  }, {
-    "id": 3,
-    "name": "Gigabyte",
-    "image": "Energizer",
-    "category": "Samsung",
-    "type": "Huawei",
-    "description": "Xiaomi",
-    "price": "$473.13"
-  }, {
-    "id": 4,
-    "name": "Motorola",
-    "image": "Huawei",
-    "category": "BlackBerry",
-    "type": "HTC",
-    "description": "BLU",
-    "price": "$312.33"
-  }, {
-    "id": 5,
-    "name": "Samsung",
-    "image": "Nokia",
-    "category": "Micromax",
-    "type": "Nokia",
-    "description": "Apple",
-    "price": "$124.63"
-  }, {
-    "id": 6,
-    "name": "LG",
-    "image": "O2",
-    "category": "Toshiba",
-    "type": "Samsung",
-    "description": "Allview",
-    "price": "$436.81"
-  }, {
-    "id": 7,
-    "name": "HTC",
-    "image": "ZTE",
-    "category": "ZTE",
-    "type": "Infinix",
-    "description": "Asus",
-    "price": "$97.33"
-  }, {
-    "id": 8,
-    "name": "Oppo",
-    "image": "QMobile",
-    "category": "Huawei",
-    "type": "HTC",
-    "description": "HTC",
-    "price": "$271.96"
-  }, {
-    "id": 9,
-    "name": "Nokia",
-    "image": "Samsung",
-    "category": "ZTE",
-    "type": "Oppo",
-    "description": "Samsung",
-    "price": "$169.07"
-  }, {
-    "id": 10,
-    "name": "Lenovo",
-    "image": "Sharp",
-    "category": "Samsung",
-    "type": "Samsung",
-    "description": "ZTE",
-    "price": "$147.84"
-  }, {
-    "id": 11,
-    "name": "HTC",
-    "image": "Acer",
-    "category": "Oppo",
-    "type": "Celkon",
-    "description": "Lenovo",
-    "price": "$418.54"
-  }, {
-    "id": 12,
-    "name": "Motorola",
-    "image": "Sharp",
-    "category": "Motorola",
-    "type": "Samsung",
-    "description": "Xiaomi",
-    "price": "$455.68"
-  }, {
-    "id": 13,
-    "name": "Gionee",
-    "image": "Philips",
-    "category": "BLU",
-    "type": "Xiaomi",
-    "description": "Samsung",
-    "price": "$443.12"
-  }, {
-    "id": 14,
-    "name": "Samsung",
-    "image": "Samsung",
-    "category": "Mitac",
-    "type": "Bosch",
-    "description": "Nokia",
-    "price": "$484.87"
-  }, {
-    "id": 15,
-    "name": "vivo",
-    "image": "Samsung",
-    "category": "Micromax",
-    "type": "Ulefone",
-    "description": "BLU",
-    "price": "$111.07"
-  }, {
-    "id": 16,
-    "name": "Samsung",
-    "image": "Sagem",
-    "category": "Micromax",
-    "type": "Microsoft",
-    "description": "alcatel",
-    "price": "$337.44"
-  }, {
-    "id": 17,
-    "name": "XOLO",
-    "image": "Honor",
-    "category": "LG",
-    "type": "i-mobile",
-    "description": "Huawei",
-    "price": "$442.23"
-  }, {
-    "id": 18,
-    "name": "Sagem",
-    "image": "Asus",
-    "category": "XOLO",
-    "type": "Motorola",
-    "description": "Samsung",
-    "price": "$397.59"
-  }, {
-    "id": 19,
-    "name": "HTC",
-    "image": "Xiaomi",
-    "category": "Samsung",
-    "type": "O2",
-    "description": "Micromax",
-    "price": "$417.48"
-  }, {
-    "id": 20,
-    "name": "Haier",
-    "image": "LG",
-    "category": "Realme",
-    "type": "Microsoft",
-    "description": "BLU",
-    "price": "$455.07"
-  }, {
-    "id": 21,
-    "name": "O2",
-    "image": "Samsung",
-    "category": "VK",
-    "type": "Samsung",
-    "description": "Oppo",
-    "price": "$144.89"
-  }, {
-    "id": 22,
-    "name": "Samsung",
-    "image": "Celkon",
-    "category": "Nokia",
-    "type": "Asus",
-    "description": "Haier",
-    "price": "$368.15"
-  }, {
-    "id": 23,
-    "name": "Icemobile",
-    "image": "Sharp",
-    "category": "XOLO",
-    "type": "Motorola",
-    "description": "ZTE",
-    "price": "$331.10"
-  }, {
-    "id": 24,
-    "name": "NIU",
-    "image": "Orange",
-    "category": "Samsung",
-    "type": "verykool",
-    "description": "Sony",
-    "price": "$201.44"
-  }, {
-    "id": 25,
-    "name": "LG",
-    "image": "Huawei",
-    "category": "Samsung",
-    "type": "Samsung",
-    "description": "Huawei",
-    "price": "$154.53"
-  }, {
-    "id": 26,
-    "name": "alcatel",
-    "image": "Motorola",
-    "category": "Samsung",
-    "type": "Samsung",
-    "description": "Spice",
-    "price": "$213.63"
-  }, {
-    "id": 27,
-    "name": "Samsung",
-    "image": "Xiaomi",
-    "category": "Samsung",
-    "type": "Yezz",
-    "description": "verykool",
-    "price": "$350.21"
-  }, {
-    "id": 28,
-    "name": "Sagem",
-    "image": "HTC",
-    "category": "alcatel",
-    "type": "Samsung",
-    "description": "Samsung",
-    "price": "$271.02"
-  }, {
-    "id": 29,
-    "name": "Xiaomi",
-    "image": "Apple",
-    "category": "Vodafone",
-    "type": "Plum",
-    "description": "Xiaomi",
-    "price": "$77.16"
-  }, {
-    "id": 30,
-    "name": "Siemens",
-    "image": "vivo",
-    "category": "Amoi",
-    "type": "Karbonn",
-    "description": "Samsung",
-    "price": "$88.49"
-  }, {
-    "id": 31,
-    "name": "Nokia",
-    "image": "Nokia",
-    "category": "Archos",
-    "type": "Wiko",
-    "description": "Lenovo",
-    "price": "$192.36"
-  }, {
-    "id": 32,
-    "name": "Lava",
-    "image": "Philips",
-    "category": "Ericsson",
-    "type": "Tecno",
-    "description": "Lenovo",
-    "price": "$476.90"
-  }, {
-    "id": 33,
-    "name": "Xiaomi",
-    "image": "HTC",
-    "category": "Asus",
-    "type": "BLU",
-    "description": "Samsung",
-    "price": "$353.37"
-  }, {
-    "id": 34,
-    "name": "ZTE",
-    "image": "Lenovo",
-    "category": "Yezz",
-    "type": "Spice",
-    "description": "Sony",
-    "price": "$351.46"
-  }, {
-    "id": 35,
-    "name": "Sagem",
-    "image": "Lenovo",
-    "category": "Samsung",
-    "type": "Huawei",
-    "description": "Samsung",
-    "price": "$408.19"
-  }, {
-    "id": 36,
-    "name": "Philips",
-    "image": "Samsung",
-    "category": "Sharp",
-    "type": "Samsung",
-    "description": "T-Mobile",
-    "price": "$353.95"
-  }, {
-    "id": 37,
-    "name": "Motorola",
-    "image": "Bird",
-    "category": "Oppo",
-    "type": "Unnecto",
-    "description": "Nokia",
-    "price": "$448.78"
-  }, {
-    "id": 38,
-    "name": "LG",
-    "image": "LG",
-    "category": "HTC",
-    "type": "T-Mobile",
-    "description": "LG",
-    "price": "$442.15"
-  }, {
-    "id": 39,
-    "name": "LG",
-    "image": "vivo",
-    "category": "Samsung",
-    "type": "Xiaomi",
-    "description": "Gigabyte",
-    "price": "$372.41"
-  }, {
-    "id": 40,
-    "name": "Sony",
-    "image": "QMobile",
-    "category": "Maxwest",
-    "type": "Yezz",
-    "description": "Celkon",
-    "price": "$262.31"
-  }, {
-    "id": 41,
-    "name": "Nokia",
-    "image": "Acer",
-    "category": "HTC",
-    "type": "vivo",
-    "description": "Micromax",
-    "price": "$140.03"
-  }, {
-    "id": 42,
-    "name": "Lenovo",
-    "image": "LG",
-    "category": "Huawei",
-    "type": "Samsung",
-    "description": "Huawei",
-    "price": "$71.36"
-  }, {
-    "id": 43,
-    "name": "Dell",
-    "image": "Vodafone",
-    "category": "Lava",
-    "type": "alcatel",
-    "description": "Wiko",
-    "price": "$281.83"
-  }, {
-    "id": 44,
-    "name": "LG",
-    "image": "Acer",
-    "category": "ZTE",
-    "type": "Allview",
-    "description": "Amoi",
-    "price": "$390.68"
-  }, {
-    "id": 45,
-    "name": "Motorola",
-    "image": "Ulefone",
-    "category": "Sony",
-    "type": "Xiaomi",
-    "description": "Celkon",
-    "price": "$186.77"
-  }, {
-    "id": 46,
-    "name": "Pantech",
-    "image": "Samsung",
-    "category": "Micromax",
-    "type": "Xiaomi",
-    "description": "Amoi",
-    "price": "$457.06"
-  }, {
-    "id": 47,
-    "name": "Huawei",
-    "image": "Motorola",
-    "category": "Gionee",
-    "type": "ZTE",
-    "description": "Huawei",
-    "price": "$214.00"
-  }, {
-    "id": 48,
-    "name": "XOLO",
-    "image": "Sony",
-    "category": "LG",
-    "type": "Philips",
-    "description": "Sendo",
-    "price": "$271.80"
-  }, {
-    "id": 49,
-    "name": "Samsung",
-    "image": "Samsung",
-    "category": "Motorola",
-    "type": "Motorola",
-    "description": "Philips",
-    "price": "$374.72"
-  }, {
-    "id": 50,
-    "name": "Motorola",
-    "image": "NEC",
-    "category": "Xiaomi",
-    "type": "vivo",
-    "description": "verykool",
-    "price": "$265.02"
-  }, {
-    "id": 51,
-    "name": "Yezz",
-    "image": "VK",
-    "category": "Celkon",
-    "type": "Plum",
-    "description": "Samsung",
-    "price": "$283.59"
-  }, {
-    "id": 52,
-    "name": "Sony",
-    "image": "Sonim",
-    "category": "T-Mobile",
-    "type": "Sony",
-    "description": "alcatel",
-    "price": "$378.86"
-  }, {
-    "id": 53,
-    "name": "Philips",
-    "image": "verykool",
-    "category": "Samsung",
-    "type": "Samsung",
-    "description": "Motorola",
-    "price": "$31.83"
-  }, {
-    "id": 54,
-    "name": "iNQ",
-    "image": "HTC",
-    "category": "Huawei",
-    "type": "Asus",
-    "description": "Lava",
-    "price": "$385.49"
-  }, {
-    "id": 55,
-    "name": "Samsung",
-    "image": "Nokia",
-    "category": "alcatel",
-    "type": "Samsung",
-    "description": "Lava",
-    "price": "$144.36"
-  }, {
-    "id": 56,
-    "name": "QMobile",
-    "image": "Ericsson",
-    "category": "Wiko",
-    "type": "Plum",
-    "description": "Samsung",
-    "price": "$444.56"
-  }, {
-    "id": 57,
-    "name": "Micromax",
-    "image": "LG",
-    "category": "Allview",
-    "type": "Philips",
-    "description": "HTC",
-    "price": "$431.82"
-  }, {
-    "id": 58,
-    "name": "BLU",
-    "image": "LG",
-    "category": "Philips",
-    "type": "Amoi",
-    "description": "Coolpad",
-    "price": "$263.42"
-  }, {
-    "id": 59,
-    "name": "Motorola",
-    "image": "HTC",
-    "category": "Ericsson",
-    "type": "HTC",
-    "description": "alcatel",
-    "price": "$178.13"
-  }, {
-    "id": 60,
-    "name": "Casio",
-    "image": "Nokia",
-    "category": "Micromax",
-    "type": "Motorola",
-    "description": "Maxon",
-    "price": "$452.94"
-  }]
+import camera1 from "../camera/camera (1).jpg"
+import camera2 from "../camera/camera (2).jpg"
+import camera3 from "../camera/camera (3).jpg"
+import camera4 from "../camera/camera (4).jpg"
+import camera5 from "../camera/camera (5).jpg"
+import camera6 from "../camera/camera (6).jpg"
+import camera7 from "../camera/camera (7).jpg"
+import camera8 from "../camera/camera (8).jpg"
+import camera9 from "../camera/camera (9).jpg"
+import camera10 from "../camera/camera (10).jpg"
+import camera11 from "../camera/camera (11).jpg"
+import camera12 from "../camera/camera (12).jpg"
+import camera13 from "../camera/camera (13).jpg"
+import camera14 from "../camera/camera (14).jpg"
+import camera15 from "../camera/camera (15).jpg"
+import camera16 from "../camera/camera (16).jpg"
+import camera17 from "../camera/camera (17).jpg"
+import camera18 from "../camera/camera (18).jpg"
+import camera19 from "../camera/camera (19).jpg"
+import camera20 from "../camera/camera (20).jpg"
+import camera21 from "../camera/camera (21).jpg"
+import camera22 from "../camera/camera (22).jpg"
+import camera23 from "../camera/camera (23).jpg"
+import camera24 from "../camera/camera (24).jpg"
+import camera25 from "../camera/camera (25).jpg"
+import camera26 from "../camera/camera (26).jpg"
+import camera27 from "../camera/camera (27).jpg"
+import camera28 from "../camera/camera (28).jpg"
+import camera29 from "../camera/camera (29).jpg"
+import camera30 from "../camera/camera (30).jpg"
+import camera31 from "../camera/camera (31).jpg"
+import camera32 from "../camera/camera (32).jpg"
+import camera33 from "../camera/camera (33).jpg"
+import camera34 from "../camera/camera (34).jpg"
+import camera35 from "../camera/camera (35).jpg"
+import camera36 from "../camera/camera (36).jpg"
+import camera37 from "../camera/camera (37).jpg"
+import camera38 from "../camera/camera (38).jpg"
+import camera39 from "../camera/camera (39).jpg";
+import camera40 from "../camera/camera (40).jpg";
+
+
+export const camerasData = [
+  {
+    id: 1,
+    name: "Samsung",
+    new_price: 96.54,
+    category: "samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera1,
+    type: "Lenovo",
+  },
+  {
+    id: 6,
+    name: "Apple",
+    new_price: 66.33,
+    category: "Motorola",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera6,
+    type: "Modu",
+  },
+  {
+    id: 7,
+    name: "HTC",
+    new_price: 72.77,
+    category: "Celkon",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera7,
+    type: "XOLO",
+  },
+  {
+    id: 8,
+    name: "Posh",
+    new_price: 97.1,
+    category: "Lenovo",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera8,
+    type: "Lenovo",
+  },
+  {
+    id: 9,
+    name: "Unnecto",
+    new_price: 93.17,
+    category: "WND",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera9,
+    type: "Philips",
+  },
+  {
+    id: 10,
+    name: "Huawei",
+    new_price: 76.36,
+    category: "Huawei",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera10,
+    type: "Sony",
+  },
+  {
+    id: 11,
+    name: "Sewon",
+    new_price: 92.99,
+    category: "Asus",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera11,
+    type: "alcatel",
+  },
+  {
+    id: 12,
+    name: "Tecno",
+    new_price: 50.99,
+    category: "Gionee",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera12,
+    type: "Motorola",
+  },
+  {
+    id: 13,
+    name: "LG",
+    new_price: 18.15,
+    category: "LG",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera13,
+    type: "Allview",
+  },
+  {
+    id: 14,
+    name: "Sagem",
+    new_price: 62.48,
+    category: "Sony",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera17,
+    type: "Sony",
+  },
+  {
+    id: 15,
+    name: "NIU",
+    new_price: "$27.02",
+    category: "Panasonic",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera14,
+    type: "Mitac",
+  },
+  {
+    id: 16,
+    name: "HTC",
+    new_price: 75.16,
+    category: "Sony",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera15,
+    type: "Huawei",
+  },
+  {
+    id: 17,
+    name: "Intex",
+    new_price: 21.75,
+    category: "LG",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera16,
+    type: "Oppo",
+  },
+
+  {
+    id: 33,
+    name: "Samsung",
+    new_price: 78.13,
+    category: "Wiko",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera32,
+    type: "Micromax",
+  },
+
+  {
+    id: 34,
+    name: "Lenovo",
+    new_price: 83.3,
+    category: "Micromax",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera34,
+    type: "alcatel",
+  },
+  {
+    id: 35,
+    name: "Philips",
+    new_price: 89.19,
+    category: "Lava",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera35,
+    type: "Wiko",
+  },
+  {
+    id: 36,
+    name: "ZTE",
+    new_price: 58.81,
+    category: "vivo",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera18,
+    type: "HTC",
+  },
+  {
+    id: 37,
+    name: "Motorola",
+    new_price: 19.58,
+    category: "Oppo",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera36,
+    type: "Orange",
+  },
+  {
+    id: 38,
+    name: "Gigabyte",
+    new_price: 39.67,
+    category: "BlackBerry",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera37,
+    type: "Samsung",
+  },
+  {
+    id: 39,
+    name: "Ericsson",
+    new_price: 69.25,
+    category: "Plum",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera38,
+    type: "NEC",
+  },
+  {
+    id: 40,
+    name: "Sony",
+    new_price: 59.87,
+    category: "Allview",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera39,
+    type: "Apple",
+  },
+
+  {
+    id: 41,
+    name: "Spice",
+    new_price: 31.56,
+    category: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera40,
+    type: "Motorola",
+  },
+  {
+    id: 42,
+    name: "Nokia",
+    new_price: 46.65,
+    category: "alcatel",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera20,
+    type: "ZTE",
+  },
+  {
+    id: 43,
+    name: "LG",
+    new_price: 42.59,
+    category: "Asus",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera21,
+    type: "LG",
+  },
+  {
+    id: 44,
+    name: "LG",
+    new_price: 58.95,
+    category: "NEC",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera22,
+    type: "Benefon",
+  },
+  {
+    id: 45,
+    name: "Philips",
+    new_price: 92.66,
+    category: "Gionee",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera23,
+    type: "Benefon",
+  },
+  {
+    id: 46,
+    name: "Nokia",
+    new_price: 51.93,
+    category: "Celkon",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera24,
+    type: "Bird",
+  },
+  {
+    id: 47,
+    name: "alcatel",
+    new_price: 63.13,
+    category: "Philips",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera25,
+    type: "i-mobile",
+  },
+  {
+    id: 48,
+    name: "verykool",
+    new_price: 33.76,
+    category: "Samsung",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera26,
+    type: "LG",
+  },
+  {
+    id: 49,
+    name: "Allview",
+    new_price: 36.08,
+    category: "Nokia",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera27,
+    type: "Oppo",
+  },
+  {
+    id: 50,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera28,
+    type: "Motorola",
+  },
+  {
+    id: 51,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera29,
+    type: "Motorola",
+  },
+  {
+    id: 52,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera30,
+    type: "Motorola",
+  },
+  {
+    id: 53,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera31,
+    type: "Motorola",
+  },
+  {
+    id: 54,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera33,
+    type: "Motorola",
+  },
+  {
+    id: 55,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera19,
+    type: "Motorola",
+  },
+  {
+    id: 56,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera5,
+    type: "Motorola",
+  },
+  {
+    id: 57,
+    name: "Apple",
+    new_price: 45.54,
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+
+    image: camera4,
+    type: "Motorola",
+  },
+
+  {
+    id: 60,
+    image: camera3,
+    new_price: 45.54,
+    name: "Apple",
+    type: "Motorola",
+    category: "Xiaomi",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa repudiandae quo tempora velit reprehenderit iste ab fuga similique asperiores.",
+  },
 
   
-
-
-
-
-
-
-
-export default camera;
+];

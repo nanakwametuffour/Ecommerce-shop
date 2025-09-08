@@ -1,4 +1,4 @@
-export const data =[
+export const clothesData2 =[
   {
     id: 116,
     title: "Elegant Golden-Base Stone Top Dining Table_demo",

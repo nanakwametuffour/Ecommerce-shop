@@ -12,13 +12,12 @@ export default function Product() {
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(1000);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemPerPage, setItemPerPage] = useState(10);
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [itemPerPage, setItemPerPage] = useState(8);
+  
   const [filteredProducts, setFilteredProducts] = useState(productsData);
-  const [categories, setCategories] = useState([]);
-  const [selectedRanges, setSelectedRanges] = useState([]);
+ 
   const [selectedBrands, setSelectedBrands] = useState([]);
-const [selectedCategories, setSelectedCategories] = useState([]);
+
   // ============ pagination start here===========//
 
   const lastPageIndex = currentPage * itemPerPage;
@@ -39,7 +38,7 @@ const [selectedCategories, setSelectedCategories] = useState([]);
   ];
 
   const handleFilterUnique = (category) => {
-    setSelectedCategory(category);
+   
     if (category === "All") {
       setFilteredProducts(productsData);
     } else {

@@ -9,12 +9,12 @@ export default function DiscountProduct() {
       <div className="border-b-2 font-semibold my-1">
         <h1 className=" uppercase">Discount product</h1>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 w-full justify-center items-center gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-5 w-full justify-center items-center gap-2">
         {KidsProductData.slice(0, 8).map((item) => (
           <Link key={item.id} to={"/kids"}>
             <div className="flex justify-center flex-col shadow-md my-3">
               <img
-                src={item.img}
+                src={item.image}
                 alt=""
                 className="w-full h-[300px] object-cover rounded-sm "
               />

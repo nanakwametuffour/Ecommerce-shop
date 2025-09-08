@@ -60,68 +60,27 @@ import mobile59 from "../mobile/mobile (59).webp";
 import mobile60 from "../mobile/mobile (60).webp";
 
 const mobile = [
-  {
-    id: 1,
-    name: "Orange",
-    image: mobile1,
-    category: "Vodafone",
-    type: "Micromax",
-    description: "Samsung",
-    price: "$114.79",
-  },
-  {
-    id: 2,
-    name: "Gionee",
-    image: mobile2,
-    category: "Kyocera",
-    type: "Lava",
-    description: "Celkon",
-    price: "$111.65",
-  },
-  {
-    id: 3,
-    name: "XOLO",
-    image: mobile3,
-    category: "HTC",
-    type: "Huawei",
-    description: "Nokia",
-    price: "$128.84",
-  },
+
   {
     id: 4,
     name: "AT&T",
     image: mobile4,
     category: "Celkon",
     type: "Philips",
-    description: "HP",
-    price: "$80.50",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 80.5,
   },
-  {
-    id: 5,
-    name: "Huawei",
-    image: mobile5,
-    category: "Casio",
-    type: "Energizer",
-    description: "Asus",
-    price: "$119.29",
-  },
-  {
-    id: 6,
-    name: "Nokia",
-    image: mobile6,
-    category: "Motorola",
-    type: "Tel.Me.",
-    description: "LG",
-    price: "$61.92",
-  },
+  // 
   {
     id: 7,
     name: "vivo",
     image: mobile7,
     category: "Sony",
     type: "Samsung",
-    description: "Toshiba",
-    price: "$98.30",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 98.3,
   },
   {
     id: 8,
@@ -129,8 +88,9 @@ const mobile = [
     image: mobile8,
     category: "Micromax",
     type: "Blackview",
-    description: "Samsung",
-    price: "$190.07",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 190.07,
   },
   {
     id: 9,
@@ -138,80 +98,33 @@ const mobile = [
     image: mobile8,
     category: "Xiaomi",
     type: "Philips",
-    description: "Panasonic",
-    price: "$182.69",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 182.69,
   },
-  {
-    id: 10,
-    name: "Coolpad",
-    image: mobile9,
-    category: "Huawei",
-    type: "Panasonic",
-    description: "Nokia",
-    price: "$50.19",
-  },
-  {
-    id: 11,
-    name: "Samsung",
-    image: mobile10,
-    category: "Vodafone",
-    type: "Xiaomi",
-    description: "Micromax",
-    price: "$177.55",
-  },
+  // 
   {
     id: 12,
     name: "LG",
     image: mobile11,
     category: "Sony",
     type: "Nokia",
-    description: "Microsoft",
-    price: "$116.71",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    
+      new_price: 116.71,
   },
-  {
-    id: 13,
-    name: "Apple",
-    image: mobile12,
-    category: "Gionee",
-    type: "Wiko",
-    description: "Apple",
-    price: "$193.60",
-  },
-  {
-    id: 14,
-    name: "Jolla",
-    image: "mobile13",
-    category: "Samsung",
-    type: "Spice",
-    description: "Benefon",
-    price: "$118.39",
-  },
-  {
-    id: 15,
-    name: "Samsung",
-    image: mobile14,
-    category: "Sony",
-    type: "Lava",
-    description: "Nokia",
-    price: "$159.74",
-  },
-  {
-    id: 16,
-    name: "Motorola",
-    image: mobile15,
-    category: "Realme",
-    type: "Siemens",
-    description: "BenQ",
-    price: "$65.14",
-  },
+
+ 
   {
     id: 17,
     name: "Samsung",
     image: mobile16,
     category: "Samsung",
     type: "Amoi",
-    description: "Archos",
-    price: "$194.45",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 194.45,
   },
   {
     id: 18,
@@ -219,8 +132,9 @@ const mobile = [
     image: mobile17,
     category: "Samsung",
     type: "Vodafone",
-    description: "BlackBerry",
-    price: "$82.43",
+    description: "     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    
+    new_price: 82.43,
   },
   {
     id: 19,
@@ -228,8 +142,9 @@ const mobile = [
     image: mobile18,
     category: "Honor",
     type: "Samsung",
-    description: "Karbonn",
-    price: "$66.21",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 66.21,
   },
   {
     id: 20,
@@ -237,8 +152,9 @@ const mobile = [
     image: mobile19,
     category: "Allview",
     type: "Motorola",
-    description: "Lenovo",
-    price: "$65.13",
+    description: "     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    
+    new_price: 65.13,
   },
   {
     id: 21,
@@ -246,8 +162,9 @@ const mobile = [
     image: mobile20,
     category: "NIU",
     type: "Wiko",
-    description: "Prestigio",
-    price: "$159.78",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 159.78,
   },
   {
     id: 22,
@@ -255,8 +172,9 @@ const mobile = [
     image: mobile21,
     category: "Sony",
     type: "Gionee",
-    description: "NIU",
-    price: "$76.52",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 76.52,
   },
   {
     id: 23,
@@ -264,8 +182,9 @@ const mobile = [
     image: mobile22,
     category: "Samsung",
     type: "i-mate",
-    description: "alcatel",
-    price: "$156.18",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 156.18,
   },
   {
     id: 24,
@@ -273,8 +192,9 @@ const mobile = [
     image: mobile23,
     category: "Nvidia",
     type: "LG",
-    description: "Philips",
-    price: "$197.37",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 197.37,
   },
   {
     id: 25,
@@ -282,8 +202,9 @@ const mobile = [
     image: mobile24,
     category: "Lenovo",
     type: "ZTE",
-    description: "alcatel",
-    price: "$68.72",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 68.72,
   },
   {
     id: 26,
@@ -291,8 +212,9 @@ const mobile = [
     image: mobile25,
     category: "alcatel",
     type: "Celkon",
-    description: "LG",
-    price: "$111.13",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 111.13,
   },
   {
     id: 27,
@@ -300,8 +222,11 @@ const mobile = [
     image: mobile26,
     category: "Motorola",
     type: "Google",
-    description: "O2",
-    price: "$155.17",
+
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+
+    new_price: 155.17,
   },
   {
     id: 28,
@@ -309,8 +234,9 @@ const mobile = [
     image: mobile27,
     category: "LG",
     type: "BlackBerry",
-    description: "Samsung",
-    price: "$164.61",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 164.61,
   },
   {
     id: 29,
@@ -318,8 +244,9 @@ const mobile = [
     image: mobile28,
     category: "Lenovo",
     type: "LG",
-    description: "Xiaomi",
-    price: "$153.43",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 153.43,
   },
   {
     id: 30,
@@ -327,8 +254,9 @@ const mobile = [
     image: mobile29,
     category: "Samsung",
     type: "Samsung",
-    description: "LG",
-    price: "$139.96",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 139.96,
   },
   {
     id: 31,
@@ -336,8 +264,9 @@ const mobile = [
     image: mobile30,
     category: "alcatel",
     type: "Toshiba",
-    description: "alcatel",
-    price: "$88.40",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 88.4,
   },
   {
     id: 32,
@@ -345,8 +274,9 @@ const mobile = [
     image: mobile31,
     category: "LG",
     type: "Asus",
-    description: "LG",
-    price: "$70.86",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 70.86,
   },
   {
     id: 33,
@@ -354,8 +284,9 @@ const mobile = [
     image: mobile32,
     category: "Yezz",
     type: "Yezz",
-    description: "alcatel",
-    price: "$56.03",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 56.03,
   },
   {
     id: 34,
@@ -363,8 +294,9 @@ const mobile = [
     image: mobile33,
     category: "Karbonn",
     type: "Gionee",
-    description: "vivo",
-    price: "$131.30",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 131.3,
   },
   {
     id: 35,
@@ -372,8 +304,9 @@ const mobile = [
     image: mobile34,
     category: "Motorola",
     type: "BLU",
-    description: "Huawei",
-    price: "$94.17",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 94.17,
   },
   {
     id: 36,
@@ -381,8 +314,9 @@ const mobile = [
     image: mobile35,
     category: "Lenovo",
     type: "Honor",
-    description: "BLU",
-    price: "$89.35",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 89.35,
   },
   {
     id: 37,
@@ -390,8 +324,9 @@ const mobile = [
     image: mobile36,
     category: "Motorola",
     type: "Philips",
-    description: "Micromax",
-    price: "$150.46",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 150.46,
   },
   {
     id: 38,
@@ -399,8 +334,9 @@ const mobile = [
     image: mobile37,
     category: "Nokia",
     type: "Nokia",
-    description: "Asus",
-    price: "$95.52",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 95.52,
   },
   {
     id: 39,
@@ -408,8 +344,9 @@ const mobile = [
     image: mobile38,
     category: "Vertu",
     type: "Celkon",
-    description: "Spice",
-    price: "$93.43",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    mew_price: 93.43,
   },
   {
     id: 40,
@@ -417,8 +354,9 @@ const mobile = [
     image: mobile39,
     category: "Intex",
     type: "HTC",
-    description: "T-Mobile",
-    price: "$157.74",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 157.74,
   },
   {
     id: 41,
@@ -426,8 +364,9 @@ const mobile = [
     image: mobile40,
     category: "Samsung",
     type: "Xiaomi",
-    description: "Intex",
-    price: "$133.83",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 133.83,
   },
   {
     id: 42,
@@ -435,8 +374,9 @@ const mobile = [
     image: mobile41,
     category: "verykool",
     type: "Micromax",
-    description: "Samsung",
-    price: "$199.68",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 199.68,
   },
   {
     id: 43,
@@ -444,8 +384,10 @@ const mobile = [
     image: mobile42,
     category: "Sharp",
     type: "Samsung",
-    description: "ZTE",
-    price: "$152.94",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+
+    new_price: 152.94,
   },
   {
     id: 44,
@@ -453,8 +395,9 @@ const mobile = [
     image: mobile43,
     category: "Micromax",
     type: "HTC",
-    description: "Philips",
-    price: "$145.20",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 145.2,
   },
   {
     id: 45,
@@ -462,8 +405,9 @@ const mobile = [
     image: mobile44,
     category: "Sony",
     type: "Siemens",
-    description: "Samsung",
-    price: "$110.91",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 110.91,
   },
   {
     id: 46,
@@ -471,8 +415,9 @@ const mobile = [
     image: mobile45,
     category: "Plum",
     type: "Samsung",
-    description: "Samsung",
-    price: "$153.79",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 153.79,
   },
   {
     id: 47,
@@ -480,8 +425,9 @@ const mobile = [
     image: mobile46,
     category: "verykool",
     type: "Sony",
-    description: "Samsung",
-    price: "$78.00",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 78.0,
   },
   {
     id: 48,
@@ -489,8 +435,9 @@ const mobile = [
     image: mobile47,
     category: "Dell",
     type: "Microsoft",
-    description: "Realme",
-    price: "$104.64",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 104.64,
   },
   {
     id: 49,
@@ -498,8 +445,9 @@ const mobile = [
     image: "mobile48",
     category: "Realme",
     type: "Lenovo",
-    description: "Plum",
-    price: "$176.97",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 176.97,
   },
   {
     id: 50,
@@ -507,8 +455,9 @@ const mobile = [
     image: mobile50,
     category: "Sony",
     type: "Motorola",
-    description: "alcatel",
-    price: "$172.57",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 172.57,
   },
   {
     id: 51,
@@ -516,8 +465,9 @@ const mobile = [
     image: mobile51,
     category: "LG",
     type: "Nokia",
-    description: "alcatel",
-    price: "$133.38",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 133.38,
   },
   {
     id: 52,
@@ -525,8 +475,9 @@ const mobile = [
     image: mobile52,
     category: "Sagem",
     type: "Huawei",
-    description: "Sagem",
-    price: "$192.93",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 192.93,
   },
   {
     id: 53,
@@ -534,8 +485,9 @@ const mobile = [
     image: mobile53,
     category: "Siemens",
     type: "Samsung",
-    description: "Nokia",
-    price: "$150.87",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 150.87,
   },
   {
     id: 54,
@@ -543,8 +495,9 @@ const mobile = [
     image: mobile54,
     category: "Vodafone",
     type: "Huawei",
-    description: "Energizer",
-    price: "$130.93",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 130.93,
   },
   {
     id: 55,
@@ -552,8 +505,9 @@ const mobile = [
     image: mobile55,
     category: "Panasonic",
     type: "Huawei",
-    description: "LG",
-    price: "$99.16",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 99.16,
   },
   {
     id: 56,
@@ -561,8 +515,9 @@ const mobile = [
     image: mobile56,
     category: "HTC",
     type: "BLU",
-    description: "Oppo",
-    price: "$148.19",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 148.19,
   },
   {
     id: 57,
@@ -570,8 +525,9 @@ const mobile = [
     image: mobile57,
     category: "LG",
     type: "HTC",
-    description: "Telit",
-    price: "$133.33",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 133.33,
   },
   {
     id: 58,
@@ -579,8 +535,9 @@ const mobile = [
     image: mobile58,
     category: "Amoi",
     type: "BLU",
-    description: "Huawei",
-    price: "$139.87",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 139.87,
   },
   {
     id: 59,
@@ -588,8 +545,9 @@ const mobile = [
     image: mobile59,
     category: "Kyocera",
     type: "Acer",
-    description: "Sony",
-    price: "$78.55",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+    new_price: 78.55,
   },
   {
     id: 60,
@@ -597,8 +555,10 @@ const mobile = [
     image: mobile60,
     category: "LG",
     type: "Vodafone",
-    description: "Maxwest",
-    price: "$170.41",
+    description:
+      "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores tenetur quibusdam. Assumenda temporibus nemo inventore? Rerum omnis aperiam enim?",
+
+    new_price: 170.41,
   },
 ];
 

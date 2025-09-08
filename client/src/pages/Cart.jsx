@@ -51,7 +51,7 @@ export default function Cart() {
 
               <div className="w-full">
                 {products.map((item) => (
-                  <div className="border-t-2  my-2 flex w-full items-center">
+                  <div key={item.id} className="border-t-2  my-2 flex w-full items-center">
                     <div className="w-full my-3 flex  md:flex-row justify-between">
                       <div className="flex gap-2">
                         <img
@@ -62,7 +62,7 @@ export default function Cart() {
                         <div className="flex flex-col gap-2">
                           <h4 className="font-semibold">{item.name}</h4>
                           <span>{item.category}</span>
-                          <p className="text-xl md:text-base text-gray-500">
+                          <p className="text-xs md:text-base text-gray-500">
                             {item.description}
                           </p>
                           <div className="flex">
