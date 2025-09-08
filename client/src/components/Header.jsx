@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { FiShoppingCart, FiStar, FiUser } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import  logo  from "/src/assets/bag.JPEG";
+// import  logo  from "/src/assets/bag.JPEG";
 import { bottomNav } from '../assets/Pages';
 import { searchProduct } from '../assets/searchData';
  import {useSelector} from 'react-redux'
@@ -49,7 +49,7 @@ export default function Header() {
           <div className="flex justify-between w-full max-w-screen mx-auto p-4 px-5">
             <div className="w-[40%] md:w-[50%] flex items-center">
               <Link to={"/"} className="flex justify-center items-center">
-                <img src={logo} alt="" className="w-8 h-8 md:w-10 md:h-10" />
+                {/* <img src={logo} alt="" className="w-8 h-8 md:w-10 md:h-10" /> */}
                 <span className=" uppercase font-semibold text-green-900">
                   bag
                 </span>
