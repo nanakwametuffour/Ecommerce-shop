@@ -51,7 +51,7 @@ export default function Header() {
               <Link to={"/"} className="flex justify-center items-center">
                 {/* <img src={logo} alt="" className="w-8 h-8 md:w-10 md:h-10" /> */}
                 <span className=" uppercase font-semibold text-green-900">
-                  bag
+                  E-Mart
                 </span>
               </Link>
             </div>
@@ -150,7 +150,7 @@ export default function Header() {
             <div className="text-white w-full flex justify-center items-center gap-3 md:gap-5 ">
               {bottomNav.map((item) => (
                 <Link key={item.id} to={item.link}>
-                  <p className="text-xl font-semibold md:text-2xl hover:opacity-50 transition duration-500">
+                  <p className="text-base font-semibold md:text-2xl hover:opacity-50 transition duration-500">
                     {item.title}
                   </p>
                 </Link>

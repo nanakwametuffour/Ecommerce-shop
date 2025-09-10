@@ -1,8 +1,8 @@
 export const bottomNav = [
   { id: 1, title: "Home", link: "/" },
   { id: 2, title: "Shop", link: "/product" },
-  { id: 3, title: "Account", link: "/profile" },
-  { id: 4, title: "About", link: "/about" },
+  { id: 3, title: "About", link: "/about" },
+  { id: 4, title: "SignIn", link: "/profile" },
 ];
 export const sidePages = [
   { id: 1, title: "earphones", link: "/earphones" },
