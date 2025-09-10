@@ -102,7 +102,7 @@ export default function Product() {
   // ============ checkbox ends here===========//
 
   return (
-    <div className="">
+    <div className=" px-2">
       <div className="w-full flex flex-col md:flex-row my-5 px-2 md:px-5 gap-6 ">
         <div className="flex flex-row flex-wrap gap-5 md:flex-col w-full md:w-44 md:border-r-2 border-green-950">
           <h2 className="font-semibold underline">Filtered Products:</h2>
