@@ -2,7 +2,7 @@ export const bottomNav = [
   { id: 1, title: "Home", link: "/" },
   { id: 2, title: "Shop", link: "/product" },
   { id: 3, title: "About", link: "/about" },
-  { id: 4, title: "SignIn", link: "/profile" },
+ 
 ];
 export const sidePages = [
   { id: 1, title: "earphones", link: "/earphones" },
@@ -89,4 +89,11 @@ export const catePages = [
     image:
       "https://images.unsplash.com/photo-1648241776507-7e3ae32698e6?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+];
+
+export const notFound = [
+  { id: 1, title: "Home", text: "you will find available products here", link: "/" },
+  { id: 2, title: "Shop", text: "maximum collections of shopping products",link: "/product" },
+  { id: 3, title: "About", text: "read our latest news and products here",link: "/about" },
+  { id: 4, title: "SignIn", text: "find your information here",link: "/profile" },
 ];

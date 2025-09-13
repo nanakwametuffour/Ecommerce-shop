@@ -1,47 +1,48 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { FaSearch, FaTimes } from 'react-icons/fa';
-import SideBar from './SideBar';
-import { FaBars } from 'react-icons/fa6';
-import { motion } from 'framer-motion';
-import { FiShoppingCart, FiStar, FiUser } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useRef, useState } from "react";
+import { FaSearch, FaTimes } from "react-icons/fa";
+import SideBar from "./SideBar";
+import { FaBars } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import { FiShoppingCart, FiStar, FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
 // import  logo  from "/src/assets/bag.JPEG";
-import { bottomNav } from '../assets/Pages';
-import { searchProduct } from '../assets/searchData';
- import {useSelector} from 'react-redux'
-export default function Header() {
-   const [searchForm, setSearchForm] = useState("")
-  const [sideBar, setSideBar] = useState(false)
-    const [searchOf, setSearchOf] = useState(false)
-   const [seachFilter, setSearchFilter]=useState(searchProduct)
-      const product = useSelector((item)=>item.cart.productItem)    
-          // console.log(product);
-          
-           
-    const filterItem =()=>{
-       const filterProduct = searchProduct.filter((item)=>
-        item.titile.toLowerCase().includes(searchForm.toLowerCase())
-      )
-       setSearchFilter(filterProduct)
-    }
-            
-  const ref =  useRef()
-  useEffect(()=>{
-    document.body.addEventListener("click",(e)=>{
-         if(e.target.contains(ref.current)){
-          setSideBar(false)
-         };
-         
-    })
-  }, [ref, sideBar])
+import { bottomNav } from "../assets/Pages";
+import { searchProduct } from "../assets/searchData";
+import { useDispatch, useSelector } from "react-redux";
+import { removeUser } from "../redux/productSlice";
 
-   const handleSearch=(e)=>{
-    setSearchForm(e.target.value)
+export default function Header() {
+  const [searchForm, setSearchForm] = useState("");
+  const [sideBar, setSideBar] = useState(false);
+  const [searchOf, setSearchOf] = useState(false);
+  const [seachFilter, setSearchFilter] = useState(searchProduct);
+  const product = useSelector((item) => item.Emart.productItem);
+  const userInfo = useSelector((item) => item.Emart.userInfo);
+
+  const filterItem = () => {
+    const dispatch = useDispatch()
     const filterProduct = searchProduct.filter((item) =>
       item.titile.toLowerCase().includes(searchForm.toLowerCase())
     );
     setSearchFilter(filterProduct);
-   }
+  };
+
+  const ref = useRef();
+  useEffect(() => {
+    document.body.addEventListener("click", (e) => {
+      if (e.target.contains(ref.current)) {
+        setSideBar(false);
+      }
+    });
+  }, [ref, sideBar]);
+
+  const handleSearch = (e) => {
+    setSearchForm(e.target.value);
+    const filterProduct = searchProduct.filter((item) =>
+      item.titile.toLowerCase().includes(searchForm.toLowerCase())
+    );
+    setSearchFilter(filterProduct);
+  };
   return (
     <header className=" w-full h-auto sticky top-0 z-50">
       <div className="">
@@ -112,7 +113,7 @@ export default function Header() {
             )}
 
             <div className="w-[40%] flex justify-center items-center gap-3">
-              <Link to={"/wishlist"}>
+              <Link>
                 <div className="relative">
                   <FiStar className="text-xl md:text-2xl" />
                   <p className="w-5 h-5 rounded-full bg-red-700 flex justify-center items-center absolute -top-2 ">
@@ -139,7 +140,7 @@ export default function Header() {
 
         <div className="bg-green-900 w-full h-auto ">
           <div className="flex justify-between w-full max-w-screen mx-auto p-4 px-5">
-            <div className="text-white w-full">
+            <div className="text-white w-[40%] md:w-full">
               <span
                 onClick={() => setSideBar(true)}
                 className="border border-white cursor-pointer w-fit p-2 flex"
@@ -147,14 +148,31 @@ export default function Header() {
                 <FaBars className="text-[23px]" />
               </span>
             </div>
-            <div className="text-white w-full flex justify-center items-center gap-3 md:gap-5 ">
-              {bottomNav.map((item) => (
-                <Link key={item.id} to={item.link}>
-                  <p className="text-base font-semibold md:text-2xl hover:opacity-50 transition duration-500">
-                    {item.title}
-                  </p>
-                </Link>
-              ))}
+            <div className="flex gap-3 items-center px-1 w-full">
+              <div className="text-white w-full flex justify-center items-center gap-3  ">
+                {bottomNav.map((item) => (
+                  <Link key={item.id} to={item.link}>
+                    <p className="text-base font-semibold md:text-2xl hover:opacity-50 transition duration-500">
+                      {item.title}
+                    </p>
+                  </Link>
+                ))}
+                <div className="flex">
+                  <Link to={"/sign-in"}>
+                    {userInfo ? (
+                      <img
+                        src={userInfo.image}
+                        alt=""
+                        className="w-8 h-8 rounded-full object-cover"
+                      />
+                    ) : (
+                      <p className="text-base font-semibold md:text-2xl hover:opacity-50 transition duration-500">
+                        Signin
+                      </p>
+                    )}
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -186,4 +204,3 @@ export default function Header() {
     </header>
   );
 }
-

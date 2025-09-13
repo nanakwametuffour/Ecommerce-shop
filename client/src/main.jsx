@@ -3,12 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { persistor, store } from "./redux/store.js";
+
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
+import { app } from "./firebase.config.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Provider store={store}>
+    <Provider store={store} app={app}>
       <PersistGate loading={null} persistor={persistor}>
         <App />
       </PersistGate>

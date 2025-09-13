@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
+    "@stripe/react-stripe-js": "^4.0.2",
+    "firebase": "^12.2.1",
     "framer-motion": "^12.19.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -19,6 +21,9 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.3",
     "react-spinners": "^0.17.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^11.0.5",
+    "reactjs-popup": "^2.0.6",
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {

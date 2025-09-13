@@ -9,7 +9,7 @@ import CategoriesFilter from "../components/CategoriesFilter.jsx";
 
 export default function Product() {
   const dispatch = useDispatch();
-  const [minPrice, setMinPrice] = useState(0);
+  const [minPrice, setMinPrice] = useState(45);
   const [maxPrice, setMaxPrice] = useState(1000);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemPerPage, setItemPerPage] = useState(8);
@@ -56,14 +56,14 @@ export default function Product() {
   const handleMin = (e) => {
     setMinPrice(Number(e.target.value));
     const filteredTtems = sliceProducts.filter(
-      (product) => product.new_price < maxPrice && product.new_price < maxPrice
+      (product) => product.new_price <= maxPrice && product.new_price <= minPrice
     );
     setFilteredProducts(filteredTtems);
   };
   const handleMax = (e) => {
     setMaxPrice(Number(e.target.value));
     const filteredProducts = sliceProducts.filter(
-      (product) => product.new_price > minPrice && product.new_price < maxPrice
+      (product) => product.new_price >= minPrice && product.new_price <= maxPrice
     );
     setFilteredProducts(filteredProducts);
   };
@@ -102,7 +102,7 @@ export default function Product() {
   // ============ checkbox ends here===========//
 
   return (
-    <div className=" px-2">
+    <div className=" px-2 overflow-x-hidden">
       <div className="w-full flex flex-col md:flex-row my-5 px-2 md:px-5 gap-6 ">
         <div className="flex flex-row flex-wrap gap-5 md:flex-col w-full md:w-44 md:border-r-2 border-green-950">
           <h2 className="font-semibold underline">Filtered Products:</h2>

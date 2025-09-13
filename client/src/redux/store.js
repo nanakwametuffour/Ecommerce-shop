@@ -17,7 +17,7 @@ const persistedReducer = persistReducer(persistConfig, productReducer);
 
 
 export const store = configureStore({
-  reducer: { cart: persistedReducer },
+  reducer: { Emart: persistedReducer },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: false,

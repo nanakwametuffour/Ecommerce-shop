@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import StripeCheckout from "react-stripe-checkout";
 import { FaArrowLeft, FaMinus, FaPlug, FaPlus, FaStar, FaTrash } from "react-icons/fa";
 import { TbTrashOff } from "react-icons/tb";
 
@@ -10,14 +14,17 @@ import {
   increaseQuantity,
 } from "../redux/productSlice";
 import Empty from "../components/Empty";
-import { Link } from "react-router-dom";
+import { Link, Navigate, Outlet } from "react-router-dom";
+  import { ToastContainer, toast } from "react-toastify";
 
 export default function Cart() {
   const dispatch = useDispatch();
   const [totalPrice, setTotalPrice] = useState("");
    const [subtotal, setSubtotal] = useState("")
   const [shipping, setShipping] = useState(10);
-  const products = useSelector((item) => item.cart.productItem);
+  const products = useSelector((item) => item.Emart.productItem);
+  const userInfo = useSelector((state)=>state.Emart.userInfo)
+    const [payment, setPayment]= useState(false)
   useEffect(() => {
     let total = 0;
     const item = products.filter((item) => {
@@ -33,6 +40,15 @@ export default function Cart() {
     });
     return setSubtotal(totalUnit.toFixed(2));
   }, [products]);
+
+  const handleCheckOut =()=>{
+    if(userInfo){
+      setPayment(true)
+    }else{
+      toast.error("Please Sign In First")
+    }
+     
+  }
 
   return (
     <div className=" w-full h-auto justify-center my-5 px-1 md:px-10">
@@ -51,7 +67,10 @@ export default function Cart() {
 
               <div className="w-full">
                 {products.map((item) => (
-                  <div key={item.id} className="border-t-2  my-2 flex w-full items-center">
+                  <div
+                    key={item.id}
+                    className="border-t-2  my-2 flex w-full items-center"
+                  >
                     <div className="w-full my-3 flex  md:flex-row justify-between">
                       <div className="flex gap-2">
                         <img
@@ -127,9 +146,25 @@ export default function Cart() {
               </div>
               <div className="">
                 <div className="">
-                  <button className="bg-green-950 w-full my-2 rounded-lg p-2 text-white font-semibold">
+                  <button
+                    onClick={handleCheckOut}
+                    className="bg-green-950 w-full my-2 rounded-lg p-2 text-white font-semibold"
+                  >
                     payment
                   </button>
+                  {payment && (
+                    <div className="w-full my-2 flex justify-center items-center">
+                      <StripeCheckout
+                        stripeKey="pk_test_51S6sELHJqBlVHRg6YFGeWKXdM8qjvnZWdk5Vtl8mpoaSBQuLa3Y6klXUsX56KTZ7E8BLnOPXxb0VpVrFIdhgn5jW007rj3Ha6H"
+                        name="E-mart online shopping"
+                        amount={totalPrice * 100}
+                        label="pay to E-mart"
+                        description={`Your payment is ${totalPrice}`}
+                        // token={payment}
+                        email={userInfo.email}
+                      />
+                    </div>
+                  )}
                 </div>
                 <Link
                   to={"/product"}
@@ -138,10 +173,16 @@ export default function Cart() {
                   <FaArrowLeft className="mt-1" />
                   <span> continue shopping</span>
                 </Link>
-                <button onClick={()=>dispatch(clearCart())} className="bg-green-950 flex text-white font-semibold  w-full my-2 rounded-lg p-2 justify-center items-center gap-2">
-                  <TbTrashOff className="text-2xl"/>
+                <button
+                  onClick={() => dispatch(clearCart())}
+                  className="bg-green-950 flex text-white font-semibold  w-full my-2 rounded-lg p-2 justify-center items-center gap-2"
+                >
+                  <TbTrashOff className="text-2xl" />
                   <span className="text-2xl">clear cart</span>
                 </button>
+                <ToastContainer
+                  
+                />
               </div>
             </div>
           </div>
