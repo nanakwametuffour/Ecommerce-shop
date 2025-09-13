@@ -70,7 +70,7 @@ export default function SignIn() {
              onClick={handleSignOut}
              className="bg-green-950 hover:opacity-90 duration-300 text-white px-5 py-1 w-fit rounded-md"
            >
-             sign out
+             Sign Out
            </button>
          </div>
        </div>
