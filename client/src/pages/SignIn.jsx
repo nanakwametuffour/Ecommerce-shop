@@ -61,7 +61,7 @@ export default function SignIn() {
              onClick={handleGoogle}
              className=" hover:opacity-90 duration-300 border shadow-sm tracking-wide font-semibold px-5 py-1 w-fit rounded-md flex justify-center items-center gap-2"
            >
-             <span className="capitalize"> sign in with Google</span>
+             <span className="capitalize"> Sign In With Google</span>
              <FcGoogle className="w-10 h-10 rounded-full" />
            </button>
          </div>
