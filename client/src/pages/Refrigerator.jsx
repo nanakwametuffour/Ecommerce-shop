@@ -119,7 +119,7 @@ export default function Refrigerator() {
              </button>
            ))}
          </div>
-         <div className="">down slide</div>
+        {/* slide */}
        </div>
   )
 }
